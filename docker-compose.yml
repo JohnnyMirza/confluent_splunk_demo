@@ -84,8 +84,8 @@
             /etc/confluent/docker/run & 
             #
             sleep infinity
-          - sh -c "/tmp/scripts/submit_s2s_source.sh"
-          - sh -c "/tmp/scripts/submit_splunk_sink.sh"
+          - chmod 755 "/tmp/scripts/submit_s2s_source.sh" && sh -c "/tmp/scripts/submit_s2s_source.sh"
+          - chmod 755 "/tmp/scripts/submit_splunk_sink.sh" && sh -c "/tmp/scripts/submit_splunk_sink.sh"
             
       ksqldb:
         image: confluentinc/cp-ksqldb-server:latest
