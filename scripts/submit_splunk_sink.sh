@@ -11,6 +11,7 @@ DATA=$( cat << EOF
     "splunk.hec.token":"3bca5f4c-1eff-4eee-9113-ea94c284478a",
     "value.converter":"org.apache.kafka.connect.storage.StringConverter",
     "confluent.topic.bootstrap.servers":"broker:29092",
+    "splunk.hec.ssl.validate.certs":"false",
     "splunk.hec.json.event.formatted": true,
     "tasks.max": "1"
   }
