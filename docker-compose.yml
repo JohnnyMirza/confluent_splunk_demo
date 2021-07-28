@@ -69,8 +69,7 @@
           CONNECT_STATUS_STORAGE_REPLICATION_FACTOR: "1"
           CONNECT_PLUGIN_PATH: '/usr/share/java/,/usr/share/confluent-hub-components/'
         volumes:
-          - $PWD/connectors:/connectors
-          - $PWD/scripts:/tmp/scripts/
+          - $PWD/scripts/:/tmp/scripts/
         command: 
           - bash 
           - -c 
@@ -84,8 +83,8 @@
             /etc/confluent/docker/run & 
             #
             sleep infinity
-          - chmod 755 "/tmp/scripts/submit_s2s_source.sh" && sh -c "/tmp/scripts/submit_s2s_source.sh"
-          - chmod 755 "/tmp/scripts/submit_splunk_sink.sh" && sh -c "/tmp/scripts/submit_splunk_sink.sh"
+          - sleep 120 && sh -c "/tmp/scripts/submit_s2s_source.sh"
+          - sh -c "/tmp/scripts/submit_splunk_sink.sh"
             
       ksqldb:
         image: confluentinc/cp-ksqldb-server:latest
@@ -132,30 +131,43 @@
          CONTROL_CENTER_KSQL_SERVER_ADVERTISED_URL: http://localhost:8088
     
       splunk_uf1:
-       image: splunk/universalforwarder:latest
-       hostname: splunk_uf1
-       container_name: splunk_uf1
-       depends_on:
-        - kafka-connect
-       environment:
-        - SPLUNK_START_ARGS=--accept-license
-        - SPLUNK_STANDALONE_URL=so1
-        - SPLUNK_ADD=udp 1514, monitor /var/log/*
-        - SPLUNK_PASSWORD=Password1
-       volumes:
-        - $PWD/splunk-datagen/:/opt/splunkforwarder/etc/apps/splunk-datagen/
-
+        image: splunk/universalforwarder:latest
+        hostname: splunk_uf1
+        container_name: splunk_uf1
+        depends_on:
+          - kafka-connect
+        environment:
+          - SPLUNK_START_ARGS=--accept-license
+          - SPLUNK_PASSWORD=Password1
+        volumes:
+          - $PWD/splunk-uf1/:/opt/splunkforwarder/etc/apps/splunk-uf1/
+        ports:
+          - 3333:3333
+      
+      splunk_eventgen:
+        image: guilhemmarchand/splunk-eventgen:latest
+        container_name: splunk_eventgen
+        restart: unless-stopped
+        user: 'root'
+        volumes:
+          - $PWD/splunk-eventgen/:/opt/splunk-eventgen
+        ports:
+          - 6379:6379
+          - 9500:9500
+        depends_on:
+          - splunk_uf1
+        command: 'splunk_eventgen -v generate /opt/splunk-eventgen/default/eventgen.conf'
+      
       splunk_search:
-       image: splunk/splunk:latest
-       container_name: splunk_search
-       depends_on:
-        - kafka-connect
-       environment:
-        - SPLUNK_START_ARGS=--accept-license
-        - SPLUNK_HEC_TOKEN=3bca5f4c-1eff-4eee-9113-ea94c284478a
-        - SPLUNK_PASSWORD=Password1
-        - SPLUNK_LICENSE_URI=Free
-       ports:
-        - 8089:8088
-        - 8000:8000
-        - 9998:9997
+        image: splunk/splunk:latest
+        container_name: splunk_search
+        depends_on:
+          - kafka-connect
+        environment:
+          - SPLUNK_START_ARGS=--accept-license
+          - SPLUNK_HEC_TOKEN=3bca5f4c-1eff-4eee-9113-ea94c284478a
+          - SPLUNK_PASSWORD=Password1
+        ports:
+          - 8089:8088
+          - 8000:8000
+          - 9997:9997

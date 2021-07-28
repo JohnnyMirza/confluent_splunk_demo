@@ -3,17 +3,18 @@
 HEADER="Content-Type: application/json"
 DATA=$( cat << EOF
 {
-  "name": "SplunkSink",
+  "name": "SPLUNKSINK",
   "config": {
+    "confluent.topic.bootstrap.servers": "broker:29092",
+    "name": "SPLUNKSINK",
     "connector.class": "com.splunk.kafka.connect.SplunkSinkConnector",
-    "topics": "splunk-s2s-events",
-    "splunk.hec.uri":"https://splunk_search:8089",
-    "splunk.hec.token":"3bca5f4c-1eff-4eee-9113-ea94c284478a",
-    "value.converter":"org.apache.kafka.connect.storage.StringConverter",
-    "confluent.topic.bootstrap.servers":"broker:29092",
-    "splunk.hec.ssl.validate.certs":"false",
-    "splunk.hec.json.event.formatted": true,
-    "tasks.max": "1"
+    "tasks.max": "1",
+    "value.converter": "org.apache.kafka.connect.storage.StringConverter",
+    "topics": "CISCO_ASA",
+    "splunk.hec.token": "3bca5f4c-1eff-4eee-9113-ea94c284478a",
+    "splunk.hec.uri": "https://splunk_search:8089",
+    "splunk.hec.ssl.validate.certs": "false",
+    "splunk.hec.json.event.formatted": "true"
   }
 }
 EOF
