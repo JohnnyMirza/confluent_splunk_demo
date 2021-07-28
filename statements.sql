@@ -16,10 +16,3 @@ CREATE STREAM CISCO_ASA as SELECT
   `index`  FROM SPLUNK
 where `sourcetype` = 'cisco:asa'
 EMIT CHANGES;
-
-
-
-
-CREATE STREAM WinEventLog_Security as SELECT * FROM SPLUNK
-where `sourcetype` = 'WinEventLog:Security'
-EMIT CHANGES;
