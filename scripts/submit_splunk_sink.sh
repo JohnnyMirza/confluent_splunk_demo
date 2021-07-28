@@ -6,7 +6,7 @@ DATA=$( cat << EOF
   "name": "SPLUNKSINK",
   "config": {
     "confluent.topic.bootstrap.servers": "broker:29092",
-    "name": "SPLUNKSINK",
+    "name": "CISCO_ASA",
     "connector.class": "com.splunk.kafka.connect.SplunkSinkConnector",
     "tasks.max": "1",
     "key.converter": "org.apache.kafka.connect.storage.StringConverter",
