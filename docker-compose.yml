@@ -71,21 +71,7 @@
         volumes:
           - $PWD/scripts/:/tmp/scripts/
         command: 
-          - bash 
-          - -c 
-          - |
-            echo "Installing connector plugins"
-            confluent-hub install --no-prompt confluentinc/kafka-connect-elasticsearch:latest
-            confluent-hub install --no-prompt splunk/kafka-connect-splunk:latest
-            confluent-hub install --no-prompt confluentinc/kafka-connect-splunk-s2s:latest
-            #
-            echo "Launching Kafka Connect worker"
-            /etc/confluent/docker/run & 
-            #
-            sleep infinity
-          - sleep 120 && sh -c "/tmp/scripts/submit_s2s_source.sh"
-          - sh -c "/tmp/scripts/submit_splunk_sink.sh"
-            
+          - /tmp/scripts/startKafkaConnectComponents.sh  
       ksqldb:
         image: confluentinc/cp-ksqldb-server:latest
         hostname: ksqldb
