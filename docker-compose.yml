@@ -47,6 +47,7 @@
           - schema-registry
         ports:
           - 8083:8083
+          - 9997:9997
         environment:
           CONNECT_BOOTSTRAP_SERVERS: "broker:29092"
           CONNECT_REST_ADVERTISED_HOST_NAME: "kafka-connect"
@@ -125,6 +126,7 @@
         environment:
           - SPLUNK_START_ARGS=--accept-license
           - SPLUNK_PASSWORD=Password1
+          - SPLUNK_APPS_URL=https://raw.githubusercontent.com/JohnnyMirza/confluent_splunk_demo/main/splunk-add-on-for-cisco-asa_410.tgz
         volumes:
           - $PWD/splunk-uf1/:/opt/splunkforwarder/etc/apps/splunk-uf1/
         ports:
@@ -157,3 +159,44 @@
         ports:
           - 8089:8088
           - 8000:8000
+
+      cyber-sigma-streams:
+        image: michaelpeacock/confluent-sigma:v1
+        container_name: cyber-sigma-streams
+        depends_on:
+          - broker
+          - kafka-connect
+          - control-center
+          - ksqldb
+        hostname: cyber-sigma-streams
+        volumes:
+          - $PWD/scripts/:/tmp/config
+        command:
+          - bash
+          - -c
+          - |
+            echo "Starting Streams app..."
+            cd /tmp
+            java -cp kafka-sigma-streams-1.0-fat.jar io.confluent.sigmarules.SigmaStreamsApp -c /tmp/config/sigma-dns.properties
+            sleep infinity
+    
+      cyber-sigma-regex-ui:
+        image: michaelpeacock/confluent-sigma-regex-ui:latest
+        container_name: cyber-sigma-regex-ui
+        depends_on:
+          - broker
+          - kafka-connect
+          - control-center
+          - ksqldb
+        hostname: cyber-sigma-regex-ui
+        ports:
+          - 8080:8080
+        environment:
+          kafka_bootstrapAddress: 'broker:29092'
+          kafka_schemaRegistry: 'http://schema-registry:8081'
+          kafka_sigma_rules_topic: 'sigma-rules'
+          confluent_regex_inputTopic: 'splunk-s2s-events'
+          confluent_regex_outputTopic: 'regex-detection'
+          confluent_regex_ruleTopic: 'regex-rules'
+          confluent_regex_filterField: 'sourcetype'
+          confluent_regex_regexField: 'event'
