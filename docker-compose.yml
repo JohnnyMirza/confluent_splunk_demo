@@ -73,6 +73,7 @@
           - $PWD/scripts/:/tmp/scripts/
         command: 
           - /tmp/scripts/startKafkaConnectComponents.sh  
+      
       ksqldb:
         image: confluentinc/cp-ksqldb-server:latest
         hostname: ksqldb
@@ -195,8 +196,8 @@
           kafka_bootstrapAddress: 'broker:29092'
           kafka_schemaRegistry: 'http://schema-registry:8081'
           kafka_sigma_rules_topic: 'sigma-rules'
+          confluent_regex_applicationID: 'regex-application'
           confluent_regex_inputTopic: 'splunk-s2s-events'
-          confluent_regex_outputTopic: 'regex-detection'
           confluent_regex_ruleTopic: 'regex-rules'
           confluent_regex_filterField: 'sourcetype'
           confluent_regex_regexField: 'event'
