@@ -51,7 +51,6 @@ docker-compose up -d
 Wait about 5 minutes or so for everything to start up, then point your web browser to http://yourhost.yourdomain.com:9021 for Confluent Control Center and http://yourhost.yourdomain.com::8080 for the Sigma Rule UI.
 
 ## Demo Script
-------------------------------------------------------------------------------------------------------------------------------
 ### Lets Examine the data streamin in.
 
 - As mentioned above, the cisco:asa logs are used for the demo
