@@ -150,11 +150,14 @@
       splunk_search:
         image: splunk/splunk:latest
         container_name: splunk_search
+        user: 'root'
+        volumes:
+          - $PWD/splunk-search/:/opt/splunk/etc/apps/splunk-search/
         depends_on:
           - kafka-connect
         environment:
           - SPLUNK_START_ARGS=--accept-license
-          - SPLUNK_HEC_TOKEN=3bca5f4c-1eff-4eee-9113-ea94c284478a
+          # - SPLUNK_HEC_TOKEN=3bca5f4c-1eff-4eee-9113-ea94c284478a
           - SPLUNK_APPS_URL=https://raw.githubusercontent.com/JohnnyMirza/confluent_splunk_demo/main/splunk-add-on-for-cisco-asa_410.tgz
           - SPLUNK_PASSWORD=Password1
         ports:
