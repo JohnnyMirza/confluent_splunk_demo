@@ -141,19 +141,24 @@ Wait about 5 minutes or so for everything to start up, then point your web brows
     ```
 
 TroubleShooting:
-The following docker images will be configured as part of this demo:
-```
-Name
-----------------
-broker
-control-center
-cyber-sigma-RegEx-ui
-cyber-sigma-streams
-kafka-connect
-ksqldb
-schema-registry
-splunk_eventgen
-splunk_search
-splunk_uf1
-zookeeper
-```
+- If the firewalls topic above does not apear after the regex, try and restart the Sigma RegEx app
+   ```
+   docker restart cyber-sigma-regex-ui
+   ```
+- The following docker images will be configured as part of this demo:   
+   ```
+   Name
+   ----------------
+   broker
+   control-center
+   cyber-sigma-RegEx-ui
+   cyber-sigma-streams
+   kafka-connect
+   ksqldb
+   schema-registry
+   splunk_eventgen
+   splunk_search
+   splunk_uf1
+   zookeeper
+   ```
+  
