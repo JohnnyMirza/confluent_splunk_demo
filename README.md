@@ -140,10 +140,9 @@ Query the Data with KsqlDB
     EMIT CHANGES;
    ```
 
-
-
 TroubleShooting:
 The following docker images will be configured as part of this demo:
+```
 Name
 ----------------
 broker
@@ -157,3 +156,4 @@ splunk_eventgen
 splunk_search
 splunk_uf1
 zookeeper
+```
