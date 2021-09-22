@@ -124,7 +124,7 @@ Wait about 5 minutes or so for everything to start up, then point your web brows
     `action`,
     `src`,
     `dest`,
-    `dest_port`,
+    `destport`,
     `sourcetype`,
     as_value(`hostname`) as hostname,
     as_value(`messageID`) as messageID,
