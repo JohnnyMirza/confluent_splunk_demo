@@ -74,8 +74,7 @@ Lets examine and publish a sigma RegEx rule
 Query the Data with KsqlDB
 - From Control Center, navigate to KsqlDB and go to the editor
 - Create a new Splunk Stream from the splunk-s2s-events topic
-  -  ```
-     create STREAM SPLUNK (
+  -  ```create STREAM SPLUNK (
     `event` VARCHAR,
     `time` BIGINT,
     `host` VARCHAR,
@@ -83,8 +82,7 @@ Query the Data with KsqlDB
     `sourcetype` VARCHAR,
     `index` VARCHAR
     ) WITH (
-      KAFKA_TOPIC='splunk-s2s-events', VALUE_FORMAT='JSON');
-    ```
+      KAFKA_TOPIC='splunk-s2s-events', VALUE_FORMAT='JSON');```
 - Lets also filter out all of the Splunk internal logs, and only focus on the cisco:asa sourcetype
   - ``` 
     CREATE STREAM CISCO_ASA as SELECT
@@ -138,7 +136,7 @@ Query the Data with KsqlDB
     WINDOW TUMBLING ( SIZE 300 SECONDS ) 
     GROUP BY `sourcetype`, `action`, `hostname`, `messageID`, `src`, `dest`, `destport`
     EMIT CHANGES;
-   ```
+    ```
 
 TroubleShooting:
 The following docker images will be configured as part of this demo:
