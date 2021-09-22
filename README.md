@@ -75,12 +75,12 @@ Query the Data with KsqlDB
 - From Control Center, navigate to KsqlDB and go to the editor
 - Create a new Splunk Stream from the splunk-s2s-events topic
   -  ```create STREAM SPLUNK (
-    `event` VARCHAR,
-    `time` BIGINT,
-    `host` VARCHAR,
-    `source` VARCHAR,
-    `sourcetype` VARCHAR,
-    `index` VARCHAR
+    ``event`` VARCHAR,
+    ``time`` BIGINT,
+    ``host`` VARCHAR,
+    ``source`` VARCHAR,
+    ``sourcetype`` VARCHAR,
+    ``index`` VARCHAR
     ) WITH (
       KAFKA_TOPIC='splunk-s2s-events', VALUE_FORMAT='JSON');```
 - Lets also filter out all of the Splunk internal logs, and only focus on the cisco:asa sourcetype
