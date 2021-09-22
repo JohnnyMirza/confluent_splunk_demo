@@ -1,4 +1,4 @@
-#Confluent Splunk-2-Splunk Source Demo
+# Confluent Splunk-2-Splunk Source Demo
 
 The purpose of this project is to provide a demonstration on how to optimize your Splunk data ingestion by using Confluent. This guide will route data from a Splunk Universal Forwarder running an eventgenerator, to the Confluent Splunk-2-Splunk Source Connector while bypassing the Splunk indexing layer and retaining all of the critical metadata assosciated with each data source (source, sourcetype, host, event, _meta). 
 
@@ -25,7 +25,7 @@ To get started, and if you are following allong on a local development environme
 This demo is using the cisco:asa sample logs from the Splunk Boss of the SOC (BOTS) Version 3 Dataset (https://github.com/splunk/botsv3), and will replay random events with a event generator to a Splunk Universal Forwarder.
 
 
-##Running on localhost
+## Running on localhost
 ```
 1. git clone https://github.com/JohnnyMirza/confluent_splunk_demo.git
 2. cd confluent_splunk_demo 
@@ -33,7 +33,7 @@ This demo is using the cisco:asa sample logs from the Splunk Boss of the SOC (BO
 ```
 Wait about 5 minutes or so for everything to start up, then point your web browser to http://localhost:9021 for Confluent Control Center and http://localhost:8080 for the Sigma Rule UI.
 
-##Running on an external host
+## Running on an external host
 To run this environment on a system that is not your laptop/workstation, edit the docker-compose.yml file.
 
 Look for this line:
@@ -50,8 +50,9 @@ docker-compose up -d
 ```
 Wait about 5 minutes or so for everything to start up, then point your web browser to http://yourhost.yourdomain.com:9021 for Confluent Control Center and http://yourhost.yourdomain.com::8080 for the Sigma Rule UI.
 
-##Demo Script
-Lets Examine the data streamin in.
+## Demo Script
+------------------------------------------------------------------------------------------------------------------------------
+### Lets Examine the data streamin in.
 
 - As mentioned above, the cisco:asa logs are used for the demo
 - Go to localhost:9021 (or remote host URL)
@@ -60,7 +61,7 @@ Lets Examine the data streamin in.
 - Look a specific record by expanding and then scroll through the fields
 - Notice the Splunk metadata fields (source, sourcetype, host, event, _meta)
 
-Lets examine and publish a sigma RegEx rule
+### Lets examine and publish a sigma RegEx rule
 - Go to localhost:8080 for the Sigma RegEx Rule UI and click on the RegEx tab
 - Create the new RegEx rule for cisco:asa with the following example (refer to image above if needed)
   - sourcetype = cisco:asa
@@ -71,7 +72,7 @@ Lets examine and publish a sigma RegEx rule
 - You should now notice a new topic called firewalls
 - Exam the data in firewalls topic and you should see the above mentioned keys and values
 
-Query the Data with KsqlDB
+### Query the Data with KsqlDB
 - From Control Center, navigate to KsqlDB and go to the editor
 - Create a new Splunk Stream from the splunk-s2s-events topic
   - ```
@@ -114,7 +115,7 @@ Query the Data with KsqlDB
     KAFKA_TOPIC='firewalls', value_format='JSON'
     );
     ```
-- Finally, create a 300 second window aggregation table to dedupe events by Group
+### Finally, create a 300 second window aggregation table to dedupe events by Group
   - ``` 
     CREATE TABLE AGGREGATOR WITH (KAFKA_TOPIC='AGGREGATOR', KEY_FORMAT='JSON', PARTITIONS=1, REPLICAS=1) AS SELECT
     `hostname`,
