@@ -82,7 +82,7 @@ Wait about 5 minutes or so for everything to start up, then point your web brows
     `time` BIGINT,
     `host` VARCHAR,
     `source` VARCHAR,
-    `sourcetyp`` VARCHAR,
+    `sourcetype` VARCHAR,
     `index` VARCHAR
     ) WITH (
     KAFKA_TOPIC='splunk-s2s-events', VALUE_FORMAT='JSON');
