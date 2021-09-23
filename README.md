@@ -175,7 +175,7 @@ Wait about 5 minutes or so for everything to start up, then point your web brows
       ```
    - Here is a example of the data reducution from the AGGREGATOR topic in Splunk. Note this is event generated data and might not reflect a production environments
    - <p align="center">
-     <img src="images/splunk_savings.png" width="50%" height="50%">
+     <img src="images/splunk_savings.png" width="80%" height="80%">
      </p> 
 
 TroubleShooting:
