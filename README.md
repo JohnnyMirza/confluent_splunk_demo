@@ -174,9 +174,9 @@ Wait about 5 minutes or so for everything to start up, then point your web brows
       | sort -savings 
       ```
    - Here is a example of the data reducution from the AGGREGATOR topic in Splunk. Note this is event generated data and might not reflect a production environments
-   - <p align="center">
-     <img src="images/splunk_savings.png" width="80%" height="80%">
-     </p> 
+<p align="center">
+<img src="images/splunk_savings.png" width="80%" height="80%">
+</p> 
 
 TroubleShooting:
 - If the 'firewall's topic above does not apear after the regex, try and restart the Sigma RegEx app
