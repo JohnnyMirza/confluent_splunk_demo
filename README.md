@@ -110,9 +110,9 @@ Wait about 5 minutes or so for everything to start up, then point your web brows
    SPLUNK.`sourcetype` `sourcetype`,
    SPLUNK.`index` `index`
    FROM SPLUNK SPLUNK
-  WHERE ((SPLUNK.`sourcetype` = 'cisco:asa') AND (NOT (SPLUNK.`event` LIKE '%ASA-4-106023%')))
-  EMIT CHANGES;
-  ```
+   WHERE ((SPLUNK.`sourcetype` = 'cisco:asa') AND (NOT (SPLUNK.`event` LIKE '%ASA-4-106023%')))
+   EMIT CHANGES;
+   ```
 - The new filtered stream 'CISCO_ASA_FILTER_106023' will sink the reduced logs to the Splunk instance using HEC
 - Next create a new Stream for the Firewalls data (the events that were extracted with the Sigma RegEx application)
   - ```
