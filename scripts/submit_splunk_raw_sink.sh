@@ -11,7 +11,7 @@ DATA=$( cat << EOF
     "tasks.max": "1",
     "key.converter": "org.apache.kafka.connect.storage.StringConverter",
     "value.converter": "org.apache.kafka.connect.storage.StringConverter",
-    "topics": "CISCO_ASA",
+    "topics": "AGGREGATOR",
     "splunk.hec.token": "c4a03fd1-805e-4392-86cf-155ae87ad27e",
     "splunk.hec.uri": "https://splunk_search:8088",
     "splunk.hec.ssl.validate.certs": "false",

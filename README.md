@@ -111,9 +111,10 @@ Wait about 5 minutes or so for everything to start up, then point your web brows
     `srcport` BIGINT,
     `sourcetype` VARCHAR,
     `destport` BIGINT,
+    `location` VARCHAR,
     `timestamp` VARCHAR
     ) WITH (
-    KAFKA_TOPIC='firewalls', value_format='JSON'
+    KAFKA_TOPIC='firewalls', value_format='JSON', KEY_FORMAT='JSON'
     );
     ```
 ### Finally, create a 300 second window aggregation table to dedupe events by Group
@@ -124,7 +125,7 @@ Wait about 5 minutes or so for everything to start up, then point your web brows
     `action`,
     `src`,
     `dest`,
-    `dest_port`,
+    `destport`,
     `sourcetype`,
     as_value(`hostname`) as hostname,
     as_value(`messageID`) as messageID,
