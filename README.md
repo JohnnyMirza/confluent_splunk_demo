@@ -158,12 +158,32 @@ Wait about 5 minutes or so for everything to start up, then point your web brows
     GROUP BY `sourcetype`, `action`, `hostname`, `messageID`, `src`, `dest`, `destport`
     EMIT CHANGES;
     ```
+### Visualise the data in Splunk
+  - Login to the splunk instance, if running locally: http://localhost:8000/en-GB/app/search/search (admin/Password1)
+  - In the search bar run ``` index=* ```
+  - The events will appear below the search bar
+  - Click on sourcetype and you should see two values: 'cisco:asa' and 'httpevent'
+    - The 'cisco:asa' sourcetype is the filtered 'CISCO_ASA_FILTER_106023' stream
+    - The 'httpevent' is the AGGREGATOR topic
+  - Run the below Splunk search query to compare and visualise the filtered and Aggregator events
+    - ```
+      index=* sourcetype=httpevent
+      | bin span=5m _time
+      | stats sum(COUNTS) as raw_events count(_raw) as filtered_events by _time, SOURCETYPE, HOSTNAME, MESSAGEID, , ACTION, SRC,     DEST, DEST_PORT, DURATION
+      | eval savings=round(((raw_events-filtered_events)/raw_events) * 100,2) . "%" 
+      | sort -savings 
+      ```
+   - Here is a example of the data reducution from the AGGREGATOR topic in Splunk. Note this is event generated data and might not reflect a production environments
+   - <p align="center">
+     <img src="images/splunk_savings.png" width="50%" height="50%">
+     </p> 
 
 TroubleShooting:
-- If the firewalls topic above does not apear after the regex, try and restart the Sigma RegEx app
+- If the 'firewall's topic above does not apear after the regex, try and restart the Sigma RegEx app
    ```
    docker restart cyber-sigma-regex-ui
    ```
+- If there are no events after running the KsqlDB queries, ensure all of the fields are correct, and that you have added the custom fields in the Sigma RegEx
 - The following docker images will be configured as part of this demo:   
    ```
    Name
