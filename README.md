@@ -67,6 +67,7 @@ Wait about 5 minutes or so for everything to start up, then point your web brows
     sourcetype = cisco:asa
     Regular Expression = ^(?<timestamp>\w{3}\s\d{2}\s\d{2}:\d{2}:\d{2})\s(?<hostname>[^\s]+)\s\%ASA-\d-(?<messageID>[^:]+):\s(?<action>[^\s]+)\s(?<protocol>[^\s]+)\ssrc\sinside:(?<src>[0-9\.]+)\/(?<srcport>[0-9]+)\sdst\soutside:(?<dest>[0-9\.]+)\/(?<destport>[0-9]+)
     Output Topic = firewalls
+    Add a Customer Field location = edge
     ```
 - The above RegEx will filter on the sourcetype=cisco:asa value from the splunk-s2s-events topic and then apply the RegEx string to the event field (which is the raw message). The RegEx will create the named capture groups as key/value pairs in the firewalls topic. For example: timestamp, hostname, messageID will be extracted as the key, and the RegEx in the group will be its value.
 - Navitage back to localhost:9021->Cluster-Topics
@@ -111,6 +112,7 @@ Wait about 5 minutes or so for everything to start up, then point your web brows
     `srcport` BIGINT,
     `sourcetype` VARCHAR,
     `destport` BIGINT,
+    `location` VARCHAR,
     `timestamp` VARCHAR
     ) WITH (
     KAFKA_TOPIC='firewalls', value_format='JSON'
