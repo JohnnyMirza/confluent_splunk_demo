@@ -67,6 +67,10 @@ Wait about 5 minutes or so for everything to start up, then point your web brows
     sourcetype = cisco:asa
     Regular Expression = ^(?<timestamp>\w{3}\s\d{2}\s\d{2}:\d{2}:\d{2})\s(?<hostname>[^\s]+)\s\%ASA-\d-(?<messageID>[^:]+):\s(?<action>[^\s]+)\s(?<protocol>[^\s]+)\ssrc\sinside:(?<src>[0-9\.]+)\/(?<srcport>[0-9]+)\sdst\soutside:(?<dest>[0-9\.]+)\/(?<destport>[0-9]+)
     Output Topic = firewalls
+    Add the Custom Fields
+    --location = edge
+    --sourcetype = cisco:asa
+    --index = main
     ```
 - The above RegEx will filter on the sourcetype=cisco:asa value from the splunk-s2s-events topic and then apply the RegEx string to the event field (which is the raw message). The RegEx will create the named capture groups as key/value pairs in the firewalls topic. For example: timestamp, hostname, messageID will be extracted as the key, and the RegEx in the group will be its value.
 - Navitage back to localhost:9021->Cluster-Topics
@@ -82,7 +86,7 @@ Wait about 5 minutes or so for everything to start up, then point your web brows
     `time` BIGINT,
     `host` VARCHAR,
     `source` VARCHAR,
-    `sourcetyp`` VARCHAR,
+    `sourcetype` VARCHAR,
     `index` VARCHAR
     ) WITH (
     KAFKA_TOPIC='splunk-s2s-events', VALUE_FORMAT='JSON');
@@ -98,6 +102,18 @@ Wait about 5 minutes or so for everything to start up, then point your web brows
     EMIT CHANGES;
     ```
 - Navigate to Flow and exam the data in the CISCO_ASA stream
+- The noisy event we are filtering is messageID %ASA-4-106023, use KsqlDb to filter out the event
+-  ```
+   CREATE STREAM CISCO_ASA_FILTER_106023 WITH (KAFKA_TOPIC='CISCO_ASA_FILTER_106023', PARTITIONS=1, REPLICAS=1) AS SELECT
+   SPLUNK.`event` `event`,
+   SPLUNK.`source` `source`,
+   SPLUNK.`sourcetype` `sourcetype`,
+   SPLUNK.`index` `index`
+   FROM SPLUNK SPLUNK
+  WHERE ((SPLUNK.`sourcetype` = 'cisco:asa') AND (NOT (SPLUNK.`event` LIKE '%ASA-4-106023%')))
+  EMIT CHANGES;
+  ```
+- The new filtered stream 'CISCO_ASA_FILTER_106023' will sink the reduced logs to the Splunk instance using HEC
 - Next create a new Stream for the Firewalls data (the events that were extracted with the Sigma RegEx application)
   - ```
     CREATE STREAM FIREWALLS (
@@ -117,7 +133,7 @@ Wait about 5 minutes or so for everything to start up, then point your web brows
     KAFKA_TOPIC='firewalls', value_format='JSON', KEY_FORMAT='JSON'
     );
     ```
-### Finally, create a 300 second window aggregation table to dedupe events by Group
+### Finally, create a window aggregation table to dedupe events by Group
   - ``` 
     CREATE TABLE AGGREGATOR WITH (KAFKA_TOPIC='AGGREGATOR', KEY_FORMAT='JSON', PARTITIONS=1, REPLICAS=1) AS SELECT
     `hostname`,
@@ -135,10 +151,10 @@ Wait about 5 minutes or so for everything to start up, then point your web brows
     as_value(`destport`) as dest_port,
     as_value(`sourcetype`) as sourcetype,
     TIMESTAMPTOSTRING(WINDOWSTART, 'yyyy-MM-dd HH:mm:ss', 'UTC') TIMESTAMP,
-    300 DURATION,
+    60 DURATION,
     COUNT(*) COUNTS
     FROM FIREWALLS FIREWALLS
-    WINDOW TUMBLING ( SIZE 300 SECONDS ) 
+    WINDOW TUMBLING ( SIZE 60 SECONDS ) 
     GROUP BY `sourcetype`, `action`, `hostname`, `messageID`, `src`, `dest`, `destport`
     EMIT CHANGES;
     ```
