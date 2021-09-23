@@ -1,6 +1,6 @@
 # Confluent Splunk-2-Splunk Source Demo
 
-The purpose of this project is to provide a demonstration on how to optimize your Splunk data ingestion by using Confluent. This guide will route data from a Splunk Universal Forwarder running an eventgenerator, to the Confluent Splunk-2-Splunk Source Connector while bypassing the Splunk indexing layer and retaining all of the critical metadata assosciated with each data source (source, sourcetype, host, event, _meta). *Thanks to Phil Wild (https://github.com/pwildconfluentio) for helping this put together.*
+The purpose of this project is to provide a demonstration on how to optimize your Splunk data ingestion by using Confluent. This guide will route data from a Splunk Universal Forwarder running an eventgenerator, to the Confluent Splunk-2-Splunk Source Connector while bypassing the Splunk indexing layer and retaining all of the critical metadata assosciated with each data source (source, sourcetype, host, event, _meta). 
 
 <p align="center">
    <img src="images/siem_optimization.png" width="50%" height="50%">
@@ -178,7 +178,12 @@ Wait about 5 minutes or so for everything to start up, then point your web brows
 <img src="images/splunk_savings.png" width="80%" height="80%">
 </p> 
 
-TroubleShooting:
+
+### Thanks To
+*Phil Wild (https://github.com/pwildconfluentio) for helping this put together.*
+*Michael Peacock (https://github.com/michaelpeacock) who created the Sigma RegEx App*
+
+### TroubleShooting:
 - If the 'firewall's topic above does not apear after the regex, try and restart the Sigma RegEx app
    ```
    docker restart cyber-sigma-regex-ui
