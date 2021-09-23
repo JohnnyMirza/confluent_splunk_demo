@@ -180,8 +180,8 @@ Wait about 5 minutes or so for everything to start up, then point your web brows
 
 
 ### Thanks To
-*Phil Wild (https://github.com/pwildconfluentio) for helping this put together.*
-*Michael Peacock (https://github.com/michaelpeacock) who created the Sigma RegEx App*
+- *Phil Wild (https://github.com/pwildconfluentio) for helping this put together.*
+- *Michael Peacock (https://github.com/michaelpeacock) who created the Sigma RegEx App*
 
 ### TroubleShooting:
 - If the 'firewall's topic above does not apear after the regex, try and restart the Sigma RegEx app
