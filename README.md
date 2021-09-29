@@ -130,7 +130,7 @@ Wait about 5 minutes or so for everything to start up, then point your web brows
     `location` VARCHAR,
     `timestamp` VARCHAR
     ) WITH (
-    KAFKA_TOPIC='firewalls', value_format='JSON', KEY_FORMAT='JSON'
+    KAFKA_TOPIC='firewalls', value_format='JSON'
     );
     ```
 ### Finally, create a window aggregation table to dedupe events by Group
