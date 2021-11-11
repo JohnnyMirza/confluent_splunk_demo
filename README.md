@@ -187,6 +187,7 @@ Wait about 5 minutes or so for everything to start up, then point your web brows
 - If the 'firewall's topic above does not apear after the regex, try and restart the Sigma RegEx app
    ```
    docker restart cyber-sigma-regex-ui
+   docker restart cyber-sigma-streams
    ```
 - If there are no events after running the KsqlDB queries, ensure all of the fields are correct, and that you have added the custom fields in the Sigma RegEx
 - The following docker images will be configured as part of this demo:   
