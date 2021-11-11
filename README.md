@@ -76,6 +76,7 @@ Wait about 5 minutes or so for everything to start up, then point your web brows
 - Navitage back to localhost:9021->Cluster-Topics
 - You should now notice a new topic called firewalls
 - Exam the data in firewalls topic and you should see the above mentioned keys and values
+- (If there is no firewalls topic, see troubleshooting below. Need to restart the kstreams apps)
 
 ### Query the Data with KsqlDB
 - From Control Center, navigate to KsqlDB and go to the editor
