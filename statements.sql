@@ -1,4 +1,4 @@
-#example statements
+-- example statements
 
 create STREAM SPLUNK (
   `event` VARCHAR,
@@ -18,6 +18,41 @@ CREATE STREAM CISCO_ASA as SELECT
   `index`  FROM SPLUNK
 where `sourcetype` = 'cisco:asa'
 EMIT CHANGES;
+
+CREATE STREAM PAN_TRAFFIC WITH (KAFKA_TOPIC='PAN_TRAFFIC', PARTITIONS=1, REPLICAS=1) as SELECT
+  `event`,
+  `source`,
+  `sourcetype`,
+  `index`  
+FROM SPLUNK
+where ((`sourcetype` = 'pan:traffic') AND (`event` LIKE '%TRAFFIC%'))
+EMIT CHANGES;
+
+CREATE STREAM PAN_THREAT WITH (KAFKA_TOPIC='PAN_THREAT', PARTITIONS=1, REPLICAS=1) AS SELECT
+  `event`,
+  `source`,
+  `sourcetype`,
+  `index`
+FROM SPLUNK
+WHERE ((`sourcetype` = 'pan:traffic') AND (`event` LIKE '%THREAT%'))
+EMIT CHANGES;
+
+CREATE TABLE HOST_LOOKUP(
+    ip varchar PRIMARY KEY, 
+    hostname varchar, 
+    domain varchar) 
+WITH (KAFKA_TOPIC='host_lookup', VALUE_FORMAT='AVRO');
+
+CREATE STREAM CISCO_ASA_FILTER_106023 WITH (KAFKA_TOPIC='CISCO_ASA_FILTER_106023', PARTITIONS=1, REPLICAS=1) AS SELECT
+SPLUNK.`event` `event`,
+SPLUNK.`source` `source`,
+SPLUNK.`sourcetype` `sourcetype`,
+SPLUNK.`index` `index`
+FROM SPLUNK 
+WHERE ((SPLUNK.`sourcetype` = 'cisco:asa') AND (NOT (SPLUNK.`event` LIKE '%ASA-4-106023%')))
+EMIT CHANGES;
+
+
 
 
 CREATE STREAM FIREWALLS (

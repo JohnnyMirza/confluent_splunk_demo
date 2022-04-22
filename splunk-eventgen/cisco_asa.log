@@ -1,0 +1,1000 @@
+Apr 09 03:41:42 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 839357 for outside:34.215.24.225/9997 to inside:192.168.9.25/33554 duration 0:28:20 bytes 1403287 TCP Reset-O
+Apr 09 03:41:42 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 839351 for outside:34.215.24.225/9997 to inside:192.168.9.30/47880 duration 0:28:27 bytes 1971571 TCP Reset-O
+Apr 09 03:41:42 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 839363 for outside:34.215.24.225/9997 to inside:192.168.9.31/65256 duration 0:28:14 bytes 384544 TCP Reset-O
+Apr 09 03:41:42 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 839361 for outside:34.215.24.225/9997 to inside:192.168.9.26/50138 duration 0:28:17 bytes 4344906 TCP Reset-O
+Apr 09 03:41:42 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/9997 to 192.168.10.18/7535 flags RST  on interface outside
+Apr 09 03:41:42 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/9997 to 192.168.10.18/7535 flags RST  on interface outside
+Apr 09 03:41:42 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/9997 to 192.168.10.18/37477 flags RST  on interface outside
+Apr 09 03:41:42 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/9997 to 192.168.10.18/37477 flags RST  on interface outside
+Apr 09 03:41:42 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840826 for outside:34.215.24.225/9997 (34.215.24.225/9997) to inside:192.168.9.25/37844 (192.168.10.18/27122)
+Apr 09 03:41:42 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840827 for outside:34.215.24.225/9997 (34.215.24.225/9997) to inside:192.168.9.26/50166 (192.168.10.18/7968)
+Apr 09 03:41:42 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840826 for outside:34.215.24.225/9997 to inside:192.168.9.25/37844 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:41:42 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840827 for outside:34.215.24.225/9997 to inside:192.168.9.26/50166 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:41:42 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840828 for outside:34.215.24.225/9997 (34.215.24.225/9997) to inside:192.168.9.30/49524 (192.168.10.18/27306)
+Apr 09 03:41:42 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840828 for outside:34.215.24.225/9997 to inside:192.168.9.30/49524 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:41:43 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840829 for outside:34.215.24.225/9997 (34.215.24.225/9997) to inside:192.168.9.31/65483 (192.168.10.18/55837)
+Apr 09 03:41:43 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840830 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/34840 (192.168.10.18/57996)
+Apr 09 03:41:43 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840831 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/34842 (192.168.10.18/48395)
+Apr 09 03:41:43 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840829 for outside:34.215.24.225/9997 to inside:192.168.9.31/65483 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:41:43 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840833 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/34844 (192.168.10.18/16255)
+Apr 09 03:41:43 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840830 for outside:34.215.24.225/8088 to inside:192.168.9.30/34840 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:41:43 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840834 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/34846 (192.168.10.18/7709)
+Apr 09 03:41:43 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840831 for outside:34.215.24.225/8088 to inside:192.168.9.30/34842 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:41:43 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840835 for outside:162.222.44.145/443 (162.222.44.145/443) to inside:192.168.9.26/47762 (192.168.10.18/54780)
+Apr 09 03:41:43 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840832 for outside:75.75.75.75/53 to inside:192.168.9.26/36202 duration 0:00:00 bytes 232
+Apr 09 03:41:43 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840833 for outside:34.215.24.225/8088 to inside:192.168.9.30/34844 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:41:43 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840834 for outside:34.215.24.225/8088 to inside:192.168.9.30/34846 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:41:43 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34776 to outside:192.168.10.18/59442 duration 0:00:30
+Apr 09 03:41:43 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840836 for outside:34.215.24.225/9997 (34.215.24.225/9997) to inside:192.168.9.31/65483 (192.168.10.18/55837)
+Apr 09 03:41:43 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840836 for outside:34.215.24.225/9997 to inside:192.168.9.31/65483 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:41:45 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840837 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50210 (192.168.10.18/63777)
+Apr 09 03:41:45 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840838 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/34850 (192.168.10.18/28782)
+Apr 09 03:41:45 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840837 for outside:34.215.24.225/443 to inside:192.168.9.30/50210 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:41:45 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840839 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/34852 (192.168.10.18/8107)
+Apr 09 03:41:45 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840838 for outside:34.215.24.225/8088 to inside:192.168.9.30/34850 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:41:45 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840840 for outside:34.215.24.225/9997 (34.215.24.225/9997) to inside:192.168.9.31/65483 (192.168.10.18/55837)
+Apr 09 03:41:45 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840839 for outside:34.215.24.225/8088 to inside:192.168.9.30/34852 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:41:45 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840841 for outside:34.215.24.225/9997 (34.215.24.225/9997) to inside:192.168.9.31/65484 (192.168.10.18/26679)
+Apr 09 03:41:45 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840840 for outside:34.215.24.225/9997 to inside:192.168.9.31/65483 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:41:45 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840841 for outside:34.215.24.225/9997 to inside:192.168.9.31/65484 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:41:45 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/53405 to outside:192.168.10.18/32119 duration 0:00:30
+Apr 09 03:41:45 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840843 for outside:34.215.24.225/9997 (34.215.24.225/9997) to inside:192.168.9.31/65484 (192.168.10.18/26679)
+Apr 09 03:41:45 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840844 for outside:162.222.44.145/443 (162.222.44.145/443) to inside:192.168.9.26/47764 (192.168.10.18/32633)
+Apr 09 03:41:45 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840842 for outside:75.75.75.75/53 to inside:192.168.9.26/59281 duration 0:00:00 bytes 232
+Apr 09 03:41:45 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840835 for outside:162.222.44.145/443 to inside:192.168.9.26/47762 duration 0:00:01 bytes 28113 TCP FINs
+Apr 09 03:41:45 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840843 for outside:34.215.24.225/9997 to inside:192.168.9.31/65484 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:41:46 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34778 to outside:192.168.10.18/36139 duration 0:00:30
+Apr 09 03:41:46 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840845 for outside:34.215.24.225/9997 (34.215.24.225/9997) to inside:192.168.9.31/65484 (192.168.10.18/26679)
+Apr 09 03:41:46 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840845 for outside:34.215.24.225/9997 to inside:192.168.9.31/65484 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:41:48 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.25/43776 to outside:192.168.10.18/15237 duration 0:00:30
+Apr 09 03:41:48 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:41:48 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840642 for outside:23.200.24.47/443 to inside:192.168.9.50/52475 duration 0:03:00 bytes 3600 TCP FINs
+Apr 09 03:41:48 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 23.200.24.47/443 to 192.168.10.18/58823 flags ACK  on interface outside
+Apr 09 03:41:48 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 23.200.24.47/443 to 192.168.10.18/58823 flags ACK  on interface outside
+Apr 09 03:41:48 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/47880 to outside:192.168.10.18/41775 duration 0:28:31
+Apr 09 03:41:49 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840844 for outside:162.222.44.145/443 to inside:192.168.9.26/47764 duration 0:00:02 bytes 7156 TCP FINs
+Apr 09 03:41:49 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840847 for outside:162.222.44.149/443 (162.222.44.149/443) to inside:192.168.9.26/45852 (192.168.10.18/37916)
+Apr 09 03:41:49 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840846 for outside:75.75.75.75/53 to inside:192.168.9.26/45324 duration 0:00:00 bytes 232
+Apr 09 03:41:49 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50142 to outside:192.168.10.18/19962 duration 0:00:30
+Apr 09 03:41:49 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.26/53644 to outside:192.168.10.18/18788 duration 0:00:30
+Apr 09 03:41:49 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:41:49 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:41:49 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:41:49 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:41:49 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:41:49 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:41:49 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840847 for outside:162.222.44.149/443 to inside:192.168.9.26/45852 duration 0:00:00 bytes 59812 TCP FINs
+Apr 09 03:41:51 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34782 to outside:192.168.10.18/38930 duration 0:00:30
+Apr 09 03:41:51 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840819 for outside:23.20.209.138/443 to inside:192.168.9.26/51946 duration 0:00:08 bytes 48061 TCP FINs
+Apr 09 03:41:52 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840848 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50216 (192.168.10.18/6979)
+Apr 09 03:41:52 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840848 for outside:34.215.24.225/443 to inside:192.168.9.30/50216 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:41:54 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34784 to outside:192.168.10.18/53139 duration 0:00:30
+Apr 09 03:41:55 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840850 for outside:75.75.75.75/53 to inside:192.168.9.50/60995 duration 0:00:00 bytes 104
+Apr 09 03:41:55 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840849 for outside:75.75.75.75/53 to inside:192.168.9.50/49220 duration 0:00:00 bytes 96
+Apr 09 03:41:58 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50148 to outside:192.168.10.18/2525 duration 0:00:30
+Apr 09 03:41:58 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.25/33554 to outside:192.168.10.18/7535 duration 0:28:31
+Apr 09 03:42:00 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840851 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50218 (192.168.10.18/62141)
+Apr 09 03:42:00 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34788 to outside:192.168.10.18/2856 duration 0:00:30
+Apr 09 03:42:00 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840851 for outside:34.215.24.225/443 to inside:192.168.9.30/50218 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:42:00 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840852 for outside:75.75.75.75/53 to inside:192.168.9.50/54793 duration 0:00:00 bytes 266
+Apr 09 03:42:03 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.26/50138 to outside:192.168.10.18/33639 duration 0:28:31
+Apr 09 03:42:04 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/49220 to outside:192.168.10.18/44500 duration 0:00:30
+Apr 09 03:42:06 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50152 to outside:192.168.10.18/6749 duration 0:00:30
+Apr 09 03:42:07 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840853 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50220 (192.168.10.18/2654)
+Apr 09 03:42:07 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34792 to outside:192.168.10.18/53540 duration 0:00:30
+Apr 09 03:42:07 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34794 to outside:192.168.10.18/46101 duration 0:00:30
+Apr 09 03:42:07 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34796 to outside:192.168.10.18/40198 duration 0:00:30
+Apr 09 03:42:07 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840853 for outside:34.215.24.225/443 to inside:192.168.9.30/50220 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:42:07 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840854 for outside:75.75.75.75/53 to inside:192.168.9.50/53405 duration 0:00:00 bytes 148
+Apr 09 03:42:07 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.31/65256 to outside:192.168.10.18/37477 duration 0:28:31
+Apr 09 03:42:09 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34798 to outside:192.168.10.18/65046 duration 0:00:30
+Apr 09 03:42:09 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34800 to outside:192.168.10.18/37211 duration 0:00:30
+Apr 09 03:42:09 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34802 to outside:192.168.10.18/22807 duration 0:00:30
+Apr 09 03:42:12 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:42:13 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:42:13 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50166 to outside:192.168.10.18/43986 duration 0:00:30
+Apr 09 03:42:13 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:42:13 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:42:13 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:42:13 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:42:13 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:42:13 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:42:13 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:42:13 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:42:13 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:42:13 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:42:13 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:42:13 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:42:13 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:42:13 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:42:13 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:42:13 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:42:13 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:42:13 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:42:13 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:42:13 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:42:13 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:42:13 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:42:13 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:42:13 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:42:13 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:42:13 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:42:15 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840855 for outside:75.75.75.75/53 to inside:192.168.9.50/49220 duration 0:00:00 bytes 96
+Apr 09 03:42:15 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34806 to outside:192.168.10.18/11246 duration 0:00:30
+Apr 09 03:42:15 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840856 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50222 (192.168.10.18/9797)
+Apr 09 03:42:15 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840856 for outside:34.215.24.225/443 to inside:192.168.9.30/50222 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:42:18 boundary-fw-1 %ASA-4-106023: Deny tcp src inside:192.168.9.50/52530 dst outside:204.107.141.25/4282 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:42:18 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/60995 to outside:192.168.10.18/23579 duration 0:00:30
+Apr 09 03:42:19 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840857 for outside:75.75.75.75/53 to inside:192.168.9.50/51335 duration 0:00:00 bytes 157
+Apr 09 03:42:19 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/65428 to outside:192.168.10.18/43011 duration 0:00:30
+Apr 09 03:42:21 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50170 to outside:192.168.10.18/49429 duration 0:00:30
+Apr 09 03:42:21 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34810 to outside:192.168.10.18/43191 duration 0:00:30
+Apr 09 03:42:21 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34812 to outside:192.168.10.18/20227 duration 0:00:30
+Apr 09 03:42:21 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840858 for outside:75.75.75.75/53 to inside:192.168.9.50/54793 duration 0:00:00 bytes 266
+Apr 09 03:42:22 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34814 to outside:192.168.10.18/36112 duration 0:00:30
+Apr 09 03:42:22 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34816 to outside:192.168.10.18/15363 duration 0:00:30
+Apr 09 03:42:24 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34818 to outside:192.168.10.18/29758 duration 0:00:30
+Apr 09 03:42:24 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34820 to outside:192.168.10.18/36395 duration 0:00:30
+Apr 09 03:42:24 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840859 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50224 (192.168.10.18/58014)
+Apr 09 03:42:24 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840859 for outside:34.215.24.225/443 to inside:192.168.9.30/50224 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:42:24 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34822 to outside:192.168.10.18/46667 duration 0:00:30
+Apr 09 03:42:24 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34824 to outside:192.168.10.18/9706 duration 0:00:30
+Apr 09 03:42:24 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.26/52306 to outside:192.168.10.18/61363 duration 0:00:30
+Apr 09 03:42:24 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.26/51946 to outside:192.168.10.18/23596 duration 0:00:30
+Apr 09 03:42:24 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840860 for outside:75.75.75.75/53 to inside:192.168.9.50/60995 duration 0:00:00 bytes 104
+Apr 09 03:42:25 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34826 to outside:192.168.10.18/22532 duration 0:00:30
+Apr 09 03:42:25 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34828 to outside:192.168.10.18/43223 duration 0:00:30
+Apr 09 03:42:27 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34830 to outside:192.168.10.18/54908 duration 0:00:30
+Apr 09 03:42:27 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34832 to outside:192.168.10.18/4500 duration 0:00:30
+Apr 09 03:42:27 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34834 to outside:192.168.10.18/2993 duration 0:00:30
+Apr 09 03:42:27 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34836 to outside:192.168.10.18/52054 duration 0:00:30
+Apr 09 03:42:27 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.25/37844 to outside:192.168.10.18/27122 duration 0:00:30
+Apr 09 03:42:27 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.26/50166 to outside:192.168.10.18/7968 duration 0:00:30
+Apr 09 03:42:27 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/49524 to outside:192.168.10.18/27306 duration 0:00:30
+Apr 09 03:42:28 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.31/65483 to outside:192.168.10.18/55837 duration 0:00:30
+Apr 09 03:42:28 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34840 to outside:192.168.10.18/57996 duration 0:00:30
+Apr 09 03:42:28 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34842 to outside:192.168.10.18/48395 duration 0:00:30
+Apr 09 03:42:28 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.26/36202 to outside:192.168.10.18/15776 duration 0:00:30
+Apr 09 03:42:28 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34844 to outside:192.168.10.18/16255 duration 0:00:30
+Apr 09 03:42:28 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34846 to outside:192.168.10.18/7709 duration 0:00:30
+Apr 09 03:42:28 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.26/47762 to outside:192.168.10.18/54780 duration 0:00:30
+Apr 09 03:42:30 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50210 to outside:192.168.10.18/63777 duration 0:00:30
+Apr 09 03:42:30 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34850 to outside:192.168.10.18/28782 duration 0:00:30
+Apr 09 03:42:30 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34852 to outside:192.168.10.18/8107 duration 0:00:30
+Apr 09 03:42:30 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.31/65484 to outside:192.168.10.18/26679 duration 0:00:30
+Apr 09 03:42:30 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.26/59281 to outside:192.168.10.18/8475 duration 0:00:30
+Apr 09 03:42:30 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.26/47764 to outside:192.168.10.18/32633 duration 0:00:30
+Apr 09 03:42:31 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840861 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50226 (192.168.10.18/35985)
+Apr 09 03:42:31 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840861 for outside:34.215.24.225/443 to inside:192.168.9.30/50226 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:42:33 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.50/52475 to outside:192.168.10.18/58823 duration 0:03:30
+Apr 09 03:42:33 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840862 for outside:75.75.75.75/53 to inside:192.168.9.50/49220 duration 0:00:00 bytes 96
+Apr 09 03:42:34 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.26/45324 to outside:192.168.10.18/10068 duration 0:00:30
+Apr 09 03:42:34 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.26/45852 to outside:192.168.10.18/37916 duration 0:00:30
+Apr 09 03:42:37 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50216 to outside:192.168.10.18/6979 duration 0:00:30
+Apr 09 03:42:39 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840863 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50228 (192.168.10.18/50952)
+Apr 09 03:42:39 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840863 for outside:34.215.24.225/443 to inside:192.168.9.30/50228 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:42:42 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:42:42 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840864 for outside:75.75.75.75/53 to inside:192.168.9.50/53405 duration 0:00:00 bytes 148
+Apr 09 03:42:43 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840865 for outside:75.75.75.75/53 to inside:192.168.9.50/60995 duration 0:00:00 bytes 104
+Apr 09 03:42:43 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:42:45 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50218 to outside:192.168.10.18/62141 duration 0:00:30
+Apr 09 03:42:45 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/54793 to outside:192.168.10.18/19592 duration 0:00:30
+Apr 09 03:42:46 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840866 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50230 (192.168.10.18/39632)
+Apr 09 03:42:46 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840866 for outside:34.215.24.225/443 to inside:192.168.9.30/50230 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:42:52 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50220 to outside:192.168.10.18/2654 duration 0:00:30
+Apr 09 03:42:52 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840867 for outside:75.75.75.75/53 to inside:192.168.9.50/49220 duration 0:00:00 bytes 96
+Apr 09 03:42:52 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/53405 to outside:192.168.10.18/59326 duration 0:00:30
+Apr 09 03:42:55 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840868 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50232 (192.168.10.18/46840)
+Apr 09 03:42:55 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840868 for outside:34.215.24.225/443 to inside:192.168.9.30/50232 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:43:00 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/49220 to outside:192.168.10.18/60752 duration 0:00:30
+Apr 09 03:43:00 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50222 to outside:192.168.10.18/9797 duration 0:00:30
+Apr 09 03:43:03 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840869 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50234 (192.168.10.18/14143)
+Apr 09 03:43:03 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840869 for outside:34.215.24.225/443 to inside:192.168.9.30/50234 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:43:04 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:43:04 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840870 for outside:75.75.75.75/53 to inside:192.168.9.50/60995 duration 0:00:00 bytes 104
+Apr 09 03:43:04 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/51335 to outside:192.168.10.18/54643 duration 0:00:30
+Apr 09 03:43:06 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840871 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/34874 (192.168.10.18/24482)
+Apr 09 03:43:06 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840871 for outside:34.215.24.225/8088 to inside:192.168.9.30/34874 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:43:07 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840872 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/34876 (192.168.10.18/51069)
+Apr 09 03:43:07 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840872 for outside:34.215.24.225/8088 to inside:192.168.9.30/34876 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:43:09 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50224 to outside:192.168.10.18/58014 duration 0:00:30
+Apr 09 03:43:09 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840873 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/34878 (192.168.10.18/4731)
+Apr 09 03:43:09 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840874 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/34880 (192.168.10.18/61534)
+Apr 09 03:43:09 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840874 for outside:34.215.24.225/8088 to inside:192.168.9.30/34880 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:43:09 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840873 for outside:34.215.24.225/8088 to inside:192.168.9.30/34878 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:43:09 boundary-fw-1 %ASA-4-106023: Deny tcp src inside:192.168.9.50/52538 dst outside:204.107.141.25/4282 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:43:09 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/60995 to outside:192.168.10.18/41841 duration 0:00:30
+Apr 09 03:43:10 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840875 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50244 (192.168.10.18/41795)
+Apr 09 03:43:10 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840875 for outside:34.215.24.225/443 to inside:192.168.9.30/50244 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:43:10 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840876 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/34884 (192.168.10.18/7460)
+Apr 09 03:43:10 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840876 for outside:34.215.24.225/8088 to inside:192.168.9.30/34884 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:43:10 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840877 for outside:75.75.75.75/53 to inside:192.168.9.50/49220 duration 0:00:00 bytes 96
+Apr 09 03:43:12 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:43:12 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840878 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/34886 (192.168.10.18/5743)
+Apr 09 03:43:12 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840879 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/34888 (192.168.10.18/21303)
+Apr 09 03:43:12 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840878 for outside:34.215.24.225/8088 to inside:192.168.9.30/34886 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:43:12 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840879 for outside:34.215.24.225/8088 to inside:192.168.9.30/34888 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:43:13 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840880 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/34890 (192.168.10.18/49603)
+Apr 09 03:43:13 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840881 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/34892 (192.168.10.18/52067)
+Apr 09 03:43:13 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840880 for outside:34.215.24.225/8088 to inside:192.168.9.30/34890 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:43:13 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840881 for outside:34.215.24.225/8088 to inside:192.168.9.30/34892 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:43:15 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840882 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/34894 (192.168.10.18/34321)
+Apr 09 03:43:15 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840882 for outside:34.215.24.225/8088 to inside:192.168.9.30/34894 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:43:15 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840883 for outside:75.75.75.75/53 to inside:192.168.9.50/53405 duration 0:00:00 bytes 148
+Apr 09 03:43:16 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50226 to outside:192.168.10.18/35985 duration 0:00:30
+Apr 09 03:43:19 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840884 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50258 (192.168.10.18/51544)
+Apr 09 03:43:19 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840884 for outside:34.215.24.225/443 to inside:192.168.9.30/50258 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:43:24 boundary-fw-1 %ASA-4-106023: Deny tcp src inside:192.168.9.50/52541 dst outside:204.107.141.25/4282 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:43:24 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50228 to outside:192.168.10.18/50952 duration 0:00:30
+Apr 09 03:43:27 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840885 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50260 (192.168.10.18/3515)
+Apr 09 03:43:27 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840885 for outside:34.215.24.225/443 to inside:192.168.9.30/50260 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:43:30 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840886 for outside:75.75.75.75/53 to inside:192.168.9.50/49220 duration 0:00:00 bytes 96
+Apr 09 03:43:31 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50230 to outside:192.168.10.18/39632 duration 0:00:30
+Apr 09 03:43:33 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840887 for outside:75.75.75.75/53 to inside:192.168.9.50/60995 duration 0:00:00 bytes 104
+Apr 09 03:43:34 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840888 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50262 (192.168.10.18/41952)
+Apr 09 03:43:34 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840888 for outside:34.215.24.225/443 to inside:192.168.9.30/50262 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:43:40 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50232 to outside:192.168.10.18/46840 duration 0:00:30
+Apr 09 03:43:40 boundary-fw-1 %ASA-4-106023: Deny tcp src inside:192.168.9.50/52544 dst outside:204.107.141.25/4282 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:43:42 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:43:42 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840889 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50264 (192.168.10.18/47883)
+Apr 09 03:43:42 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840889 for outside:34.215.24.225/443 to inside:192.168.9.30/50264 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:43:43 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:43:43 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:43:45 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840890 for outside:75.75.75.75/53 to inside:192.168.9.50/63757 duration 0:00:00 bytes 151
+Apr 09 03:43:45 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840891 for outside:75.75.75.75/53 to inside:192.168.9.50/53984 duration 0:00:00 bytes 151
+Apr 09 03:43:45 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840892 for outside:75.75.75.75/53 to inside:192.168.9.50/54793 duration 0:00:00 bytes 266
+Apr 09 03:43:48 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50234 to outside:192.168.10.18/14143 duration 0:00:30
+Apr 09 03:43:48 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840893 for outside:75.75.75.75/53 to inside:192.168.9.50/49220 duration 0:00:00 bytes 96
+Apr 09 03:43:48 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840894 for outside:75.75.75.75/53 to inside:192.168.9.50/53405 duration 0:00:00 bytes 148
+Apr 09 03:43:49 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840895 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50266 (192.168.10.18/4847)
+Apr 09 03:43:49 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840895 for outside:34.215.24.225/443 to inside:192.168.9.30/50266 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:43:51 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34874 to outside:192.168.10.18/24482 duration 0:00:30
+Apr 09 03:43:52 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34876 to outside:192.168.10.18/51069 duration 0:00:30
+Apr 09 03:43:54 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34878 to outside:192.168.10.18/4731 duration 0:00:30
+Apr 09 03:43:54 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34880 to outside:192.168.10.18/61534 duration 0:00:30
+Apr 09 03:43:55 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50244 to outside:192.168.10.18/41795 duration 0:00:30
+Apr 09 03:43:55 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34884 to outside:192.168.10.18/7460 duration 0:00:30
+Apr 09 03:43:55 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840896 for outside:75.75.75.75/53 to inside:192.168.9.50/60995 duration 0:00:00 bytes 104
+Apr 09 03:43:55 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/49220 to outside:192.168.10.18/63998 duration 0:00:30
+Apr 09 03:43:57 boundary-fw-1 %ASA-4-106023: Deny tcp src inside:192.168.9.50/52548 dst outside:204.107.141.25/4282 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:43:57 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34886 to outside:192.168.10.18/5743 duration 0:00:30
+Apr 09 03:43:57 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34888 to outside:192.168.10.18/21303 duration 0:00:30
+Apr 09 03:43:57 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840897 for outside:75.75.75.75/53 to inside:192.168.9.50/54121 duration 0:00:00 bytes 199
+Apr 09 03:43:58 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840898 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50268 (192.168.10.18/50242)
+Apr 09 03:43:58 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840898 for outside:34.215.24.225/443 to inside:192.168.9.30/50268 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:43:58 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34890 to outside:192.168.10.18/49603 duration 0:00:30
+Apr 09 03:43:58 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34892 to outside:192.168.10.18/52067 duration 0:00:30
+Apr 09 03:44:00 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34894 to outside:192.168.10.18/34321 duration 0:00:30
+Apr 09 03:44:00 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/53405 to outside:192.168.10.18/52535 duration 0:00:30
+Apr 09 03:44:04 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50258 to outside:192.168.10.18/51544 duration 0:00:30
+Apr 09 03:44:04 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:44:06 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840899 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50270 (192.168.10.18/45657)
+Apr 09 03:44:06 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840899 for outside:34.215.24.225/443 to inside:192.168.9.30/50270 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:44:06 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840787 for outside:198.60.22.240/123 to inside:192.168.9.26/35511 duration 0:02:01 bytes 96
+Apr 09 03:44:06 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:44:06 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:44:06 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:44:06 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:44:06 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:44:06 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:44:07 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840900 for outside:75.75.75.75/53 to inside:192.168.9.50/56807 duration 0:00:00 bytes 138
+Apr 09 03:44:07 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840901 for outside:75.75.75.75/53 to inside:192.168.9.50/49220 duration 0:00:00 bytes 96
+Apr 09 03:44:12 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:44:12 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50260 to outside:192.168.10.18/3515 duration 0:00:30
+Apr 09 03:44:13 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840902 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50272 (192.168.10.18/52144)
+Apr 09 03:44:13 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840902 for outside:34.215.24.225/443 to inside:192.168.9.30/50272 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:44:13 boundary-fw-1 %ASA-4-106023: Deny tcp src inside:192.168.9.50/52551 dst outside:204.107.141.25/4282 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:44:18 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/60995 to outside:192.168.10.18/37922 duration 0:00:30
+Apr 09 03:44:19 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50262 to outside:192.168.10.18/41952 duration 0:00:30
+Apr 09 03:44:21 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840903 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50274 (192.168.10.18/24291)
+Apr 09 03:44:21 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840903 for outside:34.215.24.225/443 to inside:192.168.9.30/50274 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:44:22 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840904 for outside:75.75.75.75/53 to inside:192.168.9.50/53405 duration 0:00:00 bytes 148
+Apr 09 03:44:25 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840906 for outside:75.75.75.75/53 to inside:192.168.9.50/60995 duration 0:00:00 bytes 104
+Apr 09 03:44:25 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840905 for outside:75.75.75.75/53 to inside:192.168.9.50/49220 duration 0:00:00 bytes 96
+Apr 09 03:44:27 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840907 for outside:75.75.75.75/53 to inside:192.168.9.50/61653 duration 0:00:00 bytes 151
+Apr 09 03:44:27 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840908 for outside:75.75.75.75/53 to inside:192.168.9.50/62698 duration 0:00:00 bytes 151
+Apr 09 03:44:27 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50264 to outside:192.168.10.18/47883 duration 0:00:30
+Apr 09 03:44:30 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/63757 to outside:192.168.10.18/44111 duration 0:00:30
+Apr 09 03:44:30 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/53984 to outside:192.168.10.18/54097 duration 0:00:30
+Apr 09 03:44:30 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840909 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50276 (192.168.10.18/65433)
+Apr 09 03:44:30 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/54793 to outside:192.168.10.18/34203 duration 0:00:30
+Apr 09 03:44:30 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840909 for outside:34.215.24.225/443 to inside:192.168.9.30/50276 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:44:30 boundary-fw-1 %ASA-4-106023: Deny tcp src inside:192.168.9.50/52554 dst outside:204.107.141.25/4282 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:44:34 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:44:34 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50266 to outside:192.168.10.18/4847 duration 0:00:30
+Apr 09 03:44:36 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840910 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/34916 (192.168.10.18/18664)
+Apr 09 03:44:36 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840910 for outside:34.215.24.225/8088 to inside:192.168.9.30/34916 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:44:37 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840911 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50280 (192.168.10.18/18896)
+Apr 09 03:44:37 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840911 for outside:34.215.24.225/443 to inside:192.168.9.30/50280 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:44:37 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840912 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/34920 (192.168.10.18/22712)
+Apr 09 03:44:37 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840912 for outside:34.215.24.225/8088 to inside:192.168.9.30/34920 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:44:39 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840913 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/34922 (192.168.10.18/16469)
+Apr 09 03:44:39 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840914 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/34924 (192.168.10.18/39690)
+Apr 09 03:44:39 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840914 for outside:34.215.24.225/8088 to inside:192.168.9.30/34924 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:44:39 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840913 for outside:34.215.24.225/8088 to inside:192.168.9.30/34922 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:44:40 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840915 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/34926 (192.168.10.18/20010)
+Apr 09 03:44:40 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840915 for outside:34.215.24.225/8088 to inside:192.168.9.30/34926 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:44:42 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:44:42 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840916 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/34928 (192.168.10.18/23097)
+Apr 09 03:44:42 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840917 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/34930 (192.168.10.18/55053)
+Apr 09 03:44:42 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840916 for outside:34.215.24.225/8088 to inside:192.168.9.30/34928 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:44:42 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840917 for outside:34.215.24.225/8088 to inside:192.168.9.30/34930 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:44:42 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840918 for outside:75.75.75.75/53 to inside:192.168.9.50/57942 duration 0:00:00 bytes 157
+Apr 09 03:44:42 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/54121 to outside:192.168.10.18/9845 duration 0:00:30
+Apr 09 03:44:43 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50268 to outside:192.168.10.18/50242 duration 0:00:30
+Apr 09 03:44:43 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840919 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/34932 (192.168.10.18/47585)
+Apr 09 03:44:43 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840920 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/34934 (192.168.10.18/11590)
+Apr 09 03:44:43 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840919 for outside:34.215.24.225/8088 to inside:192.168.9.30/34932 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:44:43 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840920 for outside:34.215.24.225/8088 to inside:192.168.9.30/34934 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:44:43 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840921 for outside:75.75.75.75/53 to inside:192.168.9.50/49220 duration 0:00:00 bytes 96
+Apr 09 03:44:45 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840922 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50298 (192.168.10.18/46441)
+Apr 09 03:44:45 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840922 for outside:34.215.24.225/443 to inside:192.168.9.30/50298 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:44:45 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840923 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/34938 (192.168.10.18/58853)
+Apr 09 03:44:45 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840923 for outside:34.215.24.225/8088 to inside:192.168.9.30/34938 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:44:48 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840925 for outside:23.200.24.47/443 (23.200.24.47/443) to inside:192.168.9.50/52557 (192.168.10.18/12296)
+Apr 09 03:44:48 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840924 for outside:75.75.75.75/53 to inside:192.168.9.50/59502 duration 0:00:00 bytes 228
+Apr 09 03:44:48 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840926 for outside:75.75.75.75/53 to inside:192.168.9.50/60995 duration 0:00:00 bytes 104
+Apr 09 03:44:49 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.26/35511 to outside:192.168.10.18/45352 duration 0:02:30
+Apr 09 03:44:51 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50270 to outside:192.168.10.18/45657 duration 0:00:30
+Apr 09 03:44:52 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840927 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50302 (192.168.10.18/46328)
+Apr 09 03:44:52 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840927 for outside:34.215.24.225/443 to inside:192.168.9.30/50302 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:44:52 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/56807 to outside:192.168.10.18/18123 duration 0:00:30
+Apr 09 03:44:52 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/49220 to outside:192.168.10.18/38964 duration 0:00:30
+Apr 09 03:44:55 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840931 for outside:52.35.13.105/443 (52.35.13.105/443) to inside:192.168.9.50/52559 (192.168.10.18/34922)
+Apr 09 03:44:55 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840928 for outside:75.75.75.75/53 to inside:192.168.9.50/50492 duration 0:00:00 bytes 178
+Apr 09 03:44:55 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840929 for outside:75.75.75.75/53 to inside:192.168.9.50/54793 duration 0:00:00 bytes 266
+Apr 09 03:44:55 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840930 for outside:75.75.75.75/53 to inside:192.168.9.50/53405 duration 0:00:00 bytes 148
+Apr 09 03:44:58 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50272 to outside:192.168.10.18/52144 duration 0:00:30
+Apr 09 03:45:01 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840932 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50304 (192.168.10.18/19345)
+Apr 09 03:45:01 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840932 for outside:34.215.24.225/443 to inside:192.168.9.30/50304 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:45:01 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:45:01 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:45:01 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:45:01 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:45:01 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:45:01 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:45:01 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:45:01 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:45:01 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:45:01 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:45:01 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:45:01 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:45:01 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:45:01 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:45:01 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:45:01 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:45:01 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:45:01 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:45:01 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:45:01 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:45:01 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840933 for outside:75.75.75.75/53 to inside:192.168.9.50/49220 duration 0:00:00 bytes 96
+Apr 09 03:45:06 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50274 to outside:192.168.10.18/24291 duration 0:00:30
+Apr 09 03:45:07 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/53405 to outside:192.168.10.18/39344 duration 0:00:30
+Apr 09 03:45:09 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840934 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50306 (192.168.10.18/34468)
+Apr 09 03:45:09 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840934 for outside:34.215.24.225/443 to inside:192.168.9.30/50306 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:45:10 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/60995 to outside:192.168.10.18/64663 duration 0:00:30
+Apr 09 03:45:12 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:45:12 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/61653 to outside:192.168.10.18/4979 duration 0:00:30
+Apr 09 03:45:12 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/62698 to outside:192.168.10.18/41028 duration 0:00:30
+Apr 09 03:45:13 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840935 for outside:75.75.75.75/53 to inside:192.168.9.50/54793 duration 0:00:00 bytes 266
+Apr 09 03:45:15 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50276 to outside:192.168.10.18/65433 duration 0:00:30
+Apr 09 03:45:16 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840936 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50308 (192.168.10.18/35451)
+Apr 09 03:45:16 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840936 for outside:34.215.24.225/443 to inside:192.168.9.30/50308 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:45:16 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840937 for outside:75.75.75.75/53 to inside:192.168.9.50/60995 duration 0:00:00 bytes 104
+Apr 09 03:45:18 boundary-fw-1 %ASA-4-106023: Deny tcp src inside:192.168.9.50/52563 dst outside:204.107.141.25/4282 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:45:21 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840938 for outside:75.75.75.75/53 to inside:192.168.9.50/49220 duration 0:00:00 bytes 96
+Apr 09 03:45:21 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34916 to outside:192.168.10.18/18664 duration 0:00:30
+Apr 09 03:45:22 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50280 to outside:192.168.10.18/18896 duration 0:00:30
+Apr 09 03:45:22 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34920 to outside:192.168.10.18/22712 duration 0:00:30
+Apr 09 03:45:22 boundary-fw-1 %ASA-4-106023: Deny tcp src inside:192.168.9.50/52565 dst outside:204.107.141.110/8443 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:45:22 boundary-fw-1 %ASA-4-106023: Deny tcp src inside:192.168.9.50/52566 dst outside:204.107.141.110/8443 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:45:24 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840939 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50310 (192.168.10.18/34452)
+Apr 09 03:45:24 boundary-fw-1 %ASA-6-302013: Built inbound TCP connection 840940 for outside:192.168.8.113/49303 (192.168.8.113/49303) to inside:192.168.9.31/443 (192.168.9.31/443) (btun)
+Apr 09 03:45:24 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840939 for outside:34.215.24.225/443 to inside:192.168.9.30/50310 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:45:24 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34922 to outside:192.168.10.18/16469 duration 0:00:30
+Apr 09 03:45:24 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34924 to outside:192.168.10.18/39690 duration 0:00:30
+Apr 09 03:45:25 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34926 to outside:192.168.10.18/20010 duration 0:00:30
+Apr 09 03:45:27 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34928 to outside:192.168.10.18/23097 duration 0:00:30
+Apr 09 03:45:27 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34930 to outside:192.168.10.18/55053 duration 0:00:30
+Apr 09 03:45:27 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/57942 to outside:192.168.10.18/62479 duration 0:00:30
+Apr 09 03:45:28 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34932 to outside:192.168.10.18/47585 duration 0:00:30
+Apr 09 03:45:28 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34934 to outside:192.168.10.18/11590 duration 0:00:30
+Apr 09 03:45:30 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840941 for outside:75.75.75.75/53 to inside:192.168.9.50/53405 duration 0:00:00 bytes 148
+Apr 09 03:45:30 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50298 to outside:192.168.10.18/46441 duration 0:00:30
+Apr 09 03:45:30 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34938 to outside:192.168.10.18/58853 duration 0:00:30
+Apr 09 03:45:33 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840942 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50312 (192.168.10.18/62188)
+Apr 09 03:45:33 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840942 for outside:34.215.24.225/443 to inside:192.168.9.30/50312 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:45:33 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/59502 to outside:192.168.10.18/4291 duration 0:00:30
+Apr 09 03:45:33 boundary-fw-1 %ASA-6-302013: Built inbound TCP connection 840943 for outside:192.168.8.109/55307 (192.168.8.109/55307) to inside:192.168.9.31/443 (192.168.9.31/443) (jwortoski)
+Apr 09 03:45:33 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840778 for outside:192.168.8.109/55268 to inside:192.168.9.31/443 duration 0:03:06 bytes 2611 TCP FINs (jwortoski)
+Apr 09 03:45:34 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840943 for outside:192.168.8.109/55307 to inside:192.168.9.31/443 duration 0:00:00 bytes 3321 TCP FINs (jwortoski)
+Apr 09 03:45:36 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840944 for outside:75.75.75.75/53 to inside:192.168.9.50/60995 duration 0:00:00 bytes 104
+Apr 09 03:45:37 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50302 to outside:192.168.10.18/46328 duration 0:00:30
+Apr 09 03:45:39 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840945 for outside:75.75.75.75/53 to inside:192.168.9.50/49220 duration 0:00:00 bytes 96
+Apr 09 03:45:39 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840671 for outside:192.168.8.110/25001 to inside:192.168.9.25/2055 duration 0:05:01 bytes 4832 (bgist)
+Apr 09 03:45:40 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840946 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50314 (192.168.10.18/45631)
+Apr 09 03:45:40 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840946 for outside:34.215.24.225/443 to inside:192.168.9.30/50314 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:45:40 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/50492 to outside:192.168.10.18/39654 duration 0:00:30
+Apr 09 03:45:40 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/54793 to outside:192.168.10.18/44261 duration 0:00:30
+Apr 09 03:45:42 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:45:46 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50304 to outside:192.168.10.18/19345 duration 0:00:30
+Apr 09 03:45:46 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/49220 to outside:192.168.10.18/26565 duration 0:00:30
+Apr 09 03:45:48 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840947 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50316 (192.168.10.18/59395)
+Apr 09 03:45:48 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840947 for outside:34.215.24.225/443 to inside:192.168.9.30/50316 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:45:54 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50306 to outside:192.168.10.18/34468 duration 0:00:30
+Apr 09 03:45:55 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840948 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50318 (192.168.10.18/54483)
+Apr 09 03:45:55 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840948 for outside:34.215.24.225/443 to inside:192.168.9.30/50318 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:45:58 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840950 for outside:75.75.75.75/53 to inside:192.168.9.50/60995 duration 0:00:00 bytes 104
+Apr 09 03:45:58 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840949 for outside:75.75.75.75/53 to inside:192.168.9.50/49220 duration 0:00:00 bytes 96
+Apr 09 03:46:01 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50308 to outside:192.168.10.18/35451 duration 0:00:30
+Apr 09 03:46:01 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/60995 to outside:192.168.10.18/50474 duration 0:00:30
+Apr 09 03:46:03 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840951 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50320 (192.168.10.18/20369)
+Apr 09 03:46:03 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840951 for outside:34.215.24.225/443 to inside:192.168.9.30/50320 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:46:03 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840952 for outside:75.75.75.75/53 to inside:192.168.9.50/53405 duration 0:00:00 bytes 148
+Apr 09 03:46:04 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:46:06 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840953 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/34960 (192.168.10.18/37176)
+Apr 09 03:46:07 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840954 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/34962 (192.168.10.18/8477)
+Apr 09 03:46:07 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840953 for outside:34.215.24.225/8088 to inside:192.168.9.30/34960 duration 0:00:01 bytes 0 TCP Reset-O
+Apr 09 03:46:07 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840954 for outside:34.215.24.225/8088 to inside:192.168.9.30/34962 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:46:09 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50310 to outside:192.168.10.18/34452 duration 0:00:30
+Apr 09 03:46:09 boundary-fw-1 %ASA-6-302013: Built inbound TCP connection 840955 for outside:192.168.8.110/50115 (192.168.8.110/50115) to inside:192.168.9.31/443 (192.168.9.31/443) (bgist)
+Apr 09 03:46:09 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840956 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/34964 (192.168.10.18/62175)
+Apr 09 03:46:09 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840957 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/34966 (192.168.10.18/50890)
+Apr 09 03:46:09 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840956 for outside:34.215.24.225/8088 to inside:192.168.9.30/34964 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:46:09 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840957 for outside:34.215.24.225/8088 to inside:192.168.9.30/34966 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:46:09 boundary-fw-1 %ASA-4-106023: Deny tcp src inside:192.168.9.50/52573 dst outside:204.107.141.25/4282 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:46:10 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840958 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/34968 (192.168.10.18/8934)
+Apr 09 03:46:10 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840958 for outside:34.215.24.225/8088 to inside:192.168.9.30/34968 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:46:12 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:46:12 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840959 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50332 (192.168.10.18/8102)
+Apr 09 03:46:12 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840959 for outside:34.215.24.225/443 to inside:192.168.9.30/50332 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:46:12 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840960 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/34972 (192.168.10.18/36185)
+Apr 09 03:46:12 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840961 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/34974 (192.168.10.18/27362)
+Apr 09 03:46:12 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840960 for outside:34.215.24.225/8088 to inside:192.168.9.30/34972 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:46:12 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840961 for outside:34.215.24.225/8088 to inside:192.168.9.30/34974 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:46:12 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840962 for outside:75.75.75.75/53 to inside:192.168.9.50/64621 duration 0:00:00 bytes 199
+Apr 09 03:46:13 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840963 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/34976 (192.168.10.18/41542)
+Apr 09 03:46:13 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840964 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/34978 (192.168.10.18/27659)
+Apr 09 03:46:13 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840963 for outside:34.215.24.225/8088 to inside:192.168.9.30/34976 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:46:13 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840964 for outside:34.215.24.225/8088 to inside:192.168.9.30/34978 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:46:15 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/53405 to outside:192.168.10.18/51723 duration 0:00:30
+Apr 09 03:46:15 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840965 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/34980 (192.168.10.18/6385)
+Apr 09 03:46:15 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840965 for outside:34.215.24.225/8088 to inside:192.168.9.30/34980 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:46:16 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840966 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50344 (192.168.10.18/32308)
+Apr 09 03:46:16 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840966 for outside:34.215.24.225/443 to inside:192.168.9.30/50344 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:46:16 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840967 for outside:75.75.75.75/53 to inside:192.168.9.50/49220 duration 0:00:00 bytes 96
+Apr 09 03:46:18 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50312 to outside:192.168.10.18/62188 duration 0:00:30
+Apr 09 03:46:18 boundary-fw-1 %ASA-6-302013: Built inbound TCP connection 840968 for outside:192.168.8.113/49310 (192.168.8.113/49310) to inside:192.168.9.31/443 (192.168.9.31/443) (btun)
+Apr 09 03:46:18 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840940 for outside:192.168.8.113/49303 to inside:192.168.9.31/443 duration 0:00:36 bytes 32137 TCP FINs (btun)
+Apr 09 03:46:18 boundary-fw-1 %ASA-6-302013: Built inbound TCP connection 840969 for outside:192.168.8.110/50116 (192.168.8.110/50116) to inside:192.168.9.31/443 (192.168.9.31/443) (bgist)
+Apr 09 03:46:19 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840971 for outside:96.16.247.42/443 (96.16.247.42/443) to inside:192.168.9.50/52576 (192.168.10.18/35658)
+Apr 09 03:46:19 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840970 for outside:75.75.75.75/53 to inside:192.168.9.50/60912 duration 0:00:00 bytes 76
+Apr 09 03:46:19 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840972 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50346 (192.168.10.18/28180)
+Apr 09 03:46:19 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840972 for outside:34.215.24.225/443 to inside:192.168.9.30/50346 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:46:19 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840955 for outside:192.168.8.110/50115 to inside:192.168.9.31/443 duration 0:00:07 bytes 20331 TCP FINs (bgist)
+Apr 09 03:46:19 boundary-fw-1 %ASA-6-302013: Built inbound TCP connection 840973 for outside:192.168.8.113/49311 (192.168.8.113/49311) to inside:192.168.9.31/443 (192.168.9.31/443) (btun)
+Apr 09 03:46:21 boundary-fw-1 %ASA-6-302013: Built inbound TCP connection 840974 for outside:192.168.8.110/50117 (192.168.8.110/50117) to inside:192.168.9.31/443 (192.168.9.31/443) (bgist)
+Apr 09 03:46:21 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840968 for outside:192.168.8.113/49310 to inside:192.168.9.31/443 duration 0:00:01 bytes 4032 TCP FINs (btun)
+Apr 09 03:46:21 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840969 for outside:192.168.8.110/50116 to inside:192.168.9.31/443 duration 0:00:01 bytes 2547 TCP Reset-I (bgist)
+Apr 09 03:46:21 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:46:21 boundary-fw-1 %ASA-6-302013: Built inbound TCP connection 840975 for outside:192.168.8.113/49313 (192.168.8.113/49313) to inside:192.168.9.31/443 (192.168.9.31/443) (btun)
+Apr 09 03:46:22 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840975 for outside:192.168.8.113/49313 to inside:192.168.9.31/443 duration 0:00:00 bytes 1804 TCP FINs (btun)
+Apr 09 03:46:22 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840973 for outside:192.168.8.113/49311 to inside:192.168.9.31/443 duration 0:00:01 bytes 2547 TCP FINs (btun)
+Apr 09 03:46:22 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:46:22 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:46:22 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:46:22 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:46:22 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:46:22 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:46:24 boundary-fw-1 %ASA-4-106023: Deny tcp src inside:192.168.9.50/52577 dst outside:204.107.141.25/4282 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:46:25 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840977 for outside:75.75.75.75/53 to inside:192.168.9.50/63993 duration 0:00:00 bytes 151
+Apr 09 03:46:25 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840978 for outside:75.75.75.75/53 to inside:192.168.9.50/59987 duration 0:00:00 bytes 151
+Apr 09 03:46:25 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50314 to outside:192.168.10.18/45631 duration 0:00:30
+Apr 09 03:46:27 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840979 for outside:75.75.75.75/53 to inside:192.168.9.50/60995 duration 0:00:00 bytes 104
+Apr 09 03:46:27 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840980 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50348 (192.168.10.18/22156)
+Apr 09 03:46:27 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840980 for outside:34.215.24.225/443 to inside:192.168.9.30/50348 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:46:27 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840931 for outside:52.35.13.105/443 to inside:192.168.9.50/52559 duration 0:01:01 bytes 5553 TCP FINs
+Apr 09 03:46:33 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840981 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50350 (192.168.10.18/16395)
+Apr 09 03:46:33 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840981 for outside:34.215.24.225/443 to inside:192.168.9.30/50350 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:46:33 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50316 to outside:192.168.10.18/59395 duration 0:00:30
+Apr 09 03:46:36 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840982 for outside:75.75.75.75/53 to inside:192.168.9.50/49220 duration 0:00:00 bytes 96
+Apr 09 03:46:36 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840983 for outside:75.75.75.75/53 to inside:192.168.9.50/54793 duration 0:00:00 bytes 266
+Apr 09 03:46:36 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840984 for outside:75.75.75.75/53 to inside:192.168.9.50/53405 duration 0:00:00 bytes 148
+Apr 09 03:46:36 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840985 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50352 (192.168.10.18/25365)
+Apr 09 03:46:36 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840985 for outside:34.215.24.225/443 to inside:192.168.9.30/50352 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:46:40 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50318 to outside:192.168.10.18/54483 duration 0:00:30
+Apr 09 03:46:40 boundary-fw-1 %ASA-4-106023: Deny tcp src inside:192.168.9.50/52580 dst outside:204.107.141.25/4282 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:46:42 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:46:43 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:46:43 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840986 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50354 (192.168.10.18/58593)
+Apr 09 03:46:43 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840986 for outside:34.215.24.225/443 to inside:192.168.9.30/50354 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:46:43 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/49220 to outside:192.168.10.18/35009 duration 0:00:30
+Apr 09 03:46:43 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:46:45 boundary-fw-1 %ASA-6-302010: 21 in use, 974 most used
+Apr 09 03:46:48 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840987 for outside:75.75.75.75/53 to inside:192.168.9.50/60995 duration 0:00:00 bytes 104
+Apr 09 03:46:48 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840988 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50356 (192.168.10.18/31149)
+Apr 09 03:46:48 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50320 to outside:192.168.10.18/20369 duration 0:00:30
+Apr 09 03:46:48 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840988 for outside:34.215.24.225/443 to inside:192.168.9.30/50356 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:46:51 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34960 to outside:192.168.10.18/37176 duration 0:00:30
+Apr 09 03:46:52 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840989 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50358 (192.168.10.18/58282)
+Apr 09 03:46:52 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840989 for outside:34.215.24.225/443 to inside:192.168.9.30/50358 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:46:52 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34962 to outside:192.168.10.18/8477 duration 0:00:30
+Apr 09 03:46:54 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34964 to outside:192.168.10.18/62175 duration 0:00:30
+Apr 09 03:46:54 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34966 to outside:192.168.10.18/50890 duration 0:00:30
+Apr 09 03:46:54 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840990 for outside:75.75.75.75/53 to inside:192.168.9.50/56807 duration 0:00:00 bytes 138
+Apr 09 03:46:54 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840991 for outside:75.75.75.75/53 to inside:192.168.9.50/49220 duration 0:00:00 bytes 96
+Apr 09 03:46:55 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34968 to outside:192.168.10.18/8934 duration 0:00:30
+Apr 09 03:46:55 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:46:57 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50332 to outside:192.168.10.18/8102 duration 0:00:30
+Apr 09 03:46:57 boundary-fw-1 %ASA-4-106023: Deny tcp src inside:192.168.9.50/52584 dst outside:204.107.141.25/4282 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:46:57 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34972 to outside:192.168.10.18/36185 duration 0:00:30
+Apr 09 03:46:57 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34974 to outside:192.168.10.18/27362 duration 0:00:30
+Apr 09 03:46:57 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840992 for outside:75.75.75.75/53 to inside:192.168.9.50/58056 duration 0:00:00 bytes 157
+Apr 09 03:46:57 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/64621 to outside:192.168.10.18/12725 duration 0:00:30
+Apr 09 03:46:58 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34976 to outside:192.168.10.18/41542 duration 0:00:30
+Apr 09 03:46:58 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34978 to outside:192.168.10.18/27659 duration 0:00:30
+Apr 09 03:47:00 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840993 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50360 (192.168.10.18/63713)
+Apr 09 03:47:00 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840993 for outside:34.215.24.225/443 to inside:192.168.9.30/50360 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:47:00 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/34980 to outside:192.168.10.18/6385 duration 0:00:30
+Apr 09 03:47:01 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50344 to outside:192.168.10.18/32308 duration 0:00:30
+Apr 09 03:47:04 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/60912 to outside:192.168.10.18/14260 duration 0:00:30
+Apr 09 03:47:04 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840995 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50362 (192.168.10.18/61555)
+Apr 09 03:47:04 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840995 for outside:34.215.24.225/443 to inside:192.168.9.30/50362 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:47:04 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50346 to outside:192.168.10.18/28180 duration 0:00:30
+Apr 09 03:47:07 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 840996 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50364 (192.168.10.18/59122)
+Apr 09 03:47:07 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840996 for outside:34.215.24.225/443 to inside:192.168.9.30/50364 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:47:09 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840997 for outside:75.75.75.75/53 to inside:192.168.9.50/53405 duration 0:00:00 bytes 148
+Apr 09 03:47:10 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/63993 to outside:192.168.10.18/35156 duration 0:00:30
+Apr 09 03:47:10 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/59987 to outside:192.168.10.18/62328 duration 0:00:30
+Apr 09 03:47:10 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.50/52559 to outside:192.168.10.18/34922 duration 0:01:30
+Apr 09 03:47:12 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:47:12 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/60995 to outside:192.168.10.18/26292 duration 0:00:30
+Apr 09 03:47:12 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50348 to outside:192.168.10.18/22156 duration 0:00:30
+Apr 09 03:47:13 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840998 for outside:75.75.75.75/53 to inside:192.168.9.50/49220 duration 0:00:00 bytes 96
+Apr 09 03:47:13 boundary-fw-1 %ASA-4-106023: Deny tcp src inside:192.168.9.50/52587 dst outside:204.107.141.25/4282 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:47:13 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841000 for outside:35.186.213.138/443 (35.186.213.138/443) to inside:192.168.9.50/52588 (192.168.10.18/41147)
+Apr 09 03:47:13 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840999 for outside:75.75.75.75/53 to inside:192.168.9.50/64091 duration 0:00:00 bytes 84
+Apr 09 03:47:15 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841002 for outside:72.21.91.29/80 (72.21.91.29/80) to inside:192.168.9.50/52589 (192.168.10.18/9971)
+Apr 09 03:47:15 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 841001 for outside:75.75.75.75/53 to inside:192.168.9.50/51207 duration 0:00:00 bytes 88
+Apr 09 03:47:15 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841003 for outside:72.21.91.29/80 (72.21.91.29/80) to inside:192.168.9.50/52590 (192.168.10.18/29647)
+Apr 09 03:47:15 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841002 for outside:72.21.91.29/80 to inside:192.168.9.50/52589 duration 0:00:00 bytes 1041 TCP FINs
+Apr 09 03:47:15 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841003 for outside:72.21.91.29/80 to inside:192.168.9.50/52590 duration 0:00:00 bytes 1041 TCP FINs
+Apr 09 03:47:15 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841004 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50366 (192.168.10.18/17357)
+Apr 09 03:47:15 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841004 for outside:34.215.24.225/443 to inside:192.168.9.30/50366 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:47:16 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 841005 for outside:75.75.75.75/53 to inside:192.168.9.50/60995 duration 0:00:00 bytes 104
+Apr 09 03:47:18 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50350 to outside:192.168.10.18/16395 duration 0:00:30
+Apr 09 03:47:21 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841006 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50368 (192.168.10.18/52628)
+Apr 09 03:47:21 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/54793 to outside:192.168.10.18/59831 duration 0:00:30
+Apr 09 03:47:21 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/53405 to outside:192.168.10.18/61685 duration 0:00:30
+Apr 09 03:47:21 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841006 for outside:34.215.24.225/443 to inside:192.168.9.30/50368 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:47:21 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50352 to outside:192.168.10.18/25365 duration 0:00:30
+Apr 09 03:47:24 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841007 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50370 (192.168.10.18/16976)
+Apr 09 03:47:24 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841007 for outside:34.215.24.225/443 to inside:192.168.9.30/50370 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:47:28 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50354 to outside:192.168.10.18/58593 duration 0:00:30
+Apr 09 03:47:30 boundary-fw-1 %ASA-4-106023: Deny tcp src inside:192.168.9.50/52593 dst outside:204.107.141.25/4282 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:47:31 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841008 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50372 (192.168.10.18/35293)
+Apr 09 03:47:31 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841008 for outside:34.215.24.225/443 to inside:192.168.9.30/50372 duration 0:00:00 bytes 0 TCP Reset-O
+Apr 09 03:47:31 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 841009 for outside:75.75.75.75/53 to inside:192.168.9.50/49220 duration 0:00:00 bytes 96
+Apr 09 03:47:33 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50356 to outside:192.168.10.18/31149 duration 0:00:30
+Apr 09 03:47:34 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:47:36 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841010 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50374 (192.168.10.18/4251)
+Apr 09 03:47:37 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50358 to outside:192.168.10.18/58282 duration 0:00:30
+Apr 09 03:47:37 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841011 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/35014 (192.168.10.18/63047)
+Apr 09 03:47:37 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841012 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/35016 (192.168.10.18/52438)
+Apr 09 03:47:39 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841010 for outside:34.215.24.225/443 to inside:192.168.9.30/50374 duration 0:00:02 bytes 3592 TCP Reset-I
+Apr 09 03:47:39 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/4251 flags ACK  on interface outside
+Apr 09 03:47:39 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/4251 flags FIN ACK  on interface outside
+Apr 09 03:47:39 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841013 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/35018 (192.168.10.18/24618)
+Apr 09 03:47:39 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841014 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/35020 (192.168.10.18/32125)
+Apr 09 03:47:39 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/4251 flags FIN ACK  on interface outside
+Apr 09 03:47:39 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841015 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50384 (192.168.10.18/34312)
+Apr 09 03:47:39 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/56807 to outside:192.168.10.18/47948 duration 0:00:30
+Apr 09 03:47:39 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/49220 to outside:192.168.10.18/50227 duration 0:00:30
+Apr 09 03:47:39 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/4251 flags FIN PSH ACK  on interface outside
+Apr 09 03:47:40 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841015 for outside:34.215.24.225/443 to inside:192.168.9.30/50384 duration 0:00:00 bytes 3725 TCP Reset-I
+Apr 09 03:47:40 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/34312 flags ACK  on interface outside
+Apr 09 03:47:40 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/34312 flags FIN ACK  on interface outside
+Apr 09 03:47:40 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/4251 flags FIN PSH ACK  on interface outside
+Apr 09 03:47:40 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/34312 flags FIN ACK  on interface outside
+Apr 09 03:47:40 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841016 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/35024 (192.168.10.18/3326)
+Apr 09 03:47:40 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/34312 flags FIN PSH ACK  on interface outside
+Apr 09 03:47:42 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:47:42 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/34312 flags FIN PSH ACK  on interface outside
+Apr 09 03:47:42 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/4251 flags FIN PSH ACK  on interface outside
+Apr 09 03:47:42 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841017 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/35026 (192.168.10.18/29727)
+Apr 09 03:47:42 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841018 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/35028 (192.168.10.18/11945)
+Apr 09 03:47:42 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/58056 to outside:192.168.10.18/8830 duration 0:00:30
+Apr 09 03:47:42 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 841019 for outside:75.75.75.75/53 to inside:192.168.9.50/54793 duration 0:00:00 bytes 266
+Apr 09 03:47:42 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 841020 for outside:75.75.75.75/53 to inside:192.168.9.50/53405 duration 0:00:00 bytes 148
+Apr 09 03:47:43 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/34312 flags FIN PSH ACK  on interface outside
+Apr 09 03:47:43 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841021 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/35030 (192.168.10.18/17022)
+Apr 09 03:47:43 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841022 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/35032 (192.168.10.18/37698)
+Apr 09 03:47:45 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50360 to outside:192.168.10.18/63713 duration 0:00:30
+Apr 09 03:47:45 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 841023 for outside:75.75.75.75/53 to inside:192.168.9.50/60995 duration 0:00:00 bytes 104
+Apr 09 03:47:45 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/4251 flags FIN PSH ACK  on interface outside
+Apr 09 03:47:45 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841024 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/35034 (192.168.10.18/15487)
+Apr 09 03:47:46 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/34312 flags FIN PSH ACK  on interface outside
+Apr 09 03:47:46 boundary-fw-1 %ASA-4-106023: Deny tcp src inside:192.168.9.50/52596 dst outside:204.107.141.110/8443 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:47:46 boundary-fw-1 %ASA-4-106023: Deny tcp src inside:192.168.9.50/52597 dst outside:204.107.141.110/8443 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:47:46 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841013 for outside:34.215.24.225/8088 to inside:192.168.9.30/35018 duration 0:00:05 bytes 7144 TCP FINs
+Apr 09 03:47:48 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841025 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50398 (192.168.10.18/4550)
+Apr 09 03:47:48 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841026 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/35038 (192.168.10.18/60812)
+Apr 09 03:47:48 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841016 for outside:34.215.24.225/8088 to inside:192.168.9.30/35024 duration 0:00:05 bytes 7025 TCP FINs
+Apr 09 03:47:48 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841025 for outside:34.215.24.225/443 to inside:192.168.9.30/50398 duration 0:00:00 bytes 3725 TCP FINs
+Apr 09 03:47:49 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840971 for outside:96.16.247.42/443 to inside:192.168.9.50/52576 duration 0:01:00 bytes 7402 TCP FINs
+Apr 09 03:47:49 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.50/52576 to outside:192.168.10.18/35658 duration 0:01:00
+Apr 09 03:47:49 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50362 to outside:192.168.10.18/61555 duration 0:00:30
+Apr 09 03:47:49 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841018 for outside:34.215.24.225/8088 to inside:192.168.9.30/35028 duration 0:00:05 bytes 7069 TCP FINs
+Apr 09 03:47:49 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/8088 to 192.168.10.18/11945 flags FIN ACK  on interface outside
+Apr 09 03:47:49 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 841027 for outside:75.75.75.75/53 to inside:192.168.9.50/49220 duration 0:00:00 bytes 96
+Apr 09 03:47:51 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841012 for outside:34.215.24.225/8088 to inside:192.168.9.30/35016 duration 0:00:09 bytes 9355 TCP FINs
+Apr 09 03:47:51 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/4251 flags FIN PSH ACK  on interface outside
+Apr 09 03:47:52 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50364 to outside:192.168.10.18/59122 duration 0:00:30
+Apr 09 03:47:52 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/34312 flags FIN PSH ACK  on interface outside
+Apr 09 03:47:52 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841022 for outside:34.215.24.225/8088 to inside:192.168.9.30/35032 duration 0:00:06 bytes 7314 TCP FINs
+Apr 09 03:47:52 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841011 for outside:34.215.24.225/8088 to inside:192.168.9.30/35014 duration 0:00:10 bytes 75230 TCP FINs
+Apr 09 03:47:54 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841017 for outside:34.215.24.225/8088 to inside:192.168.9.30/35026 duration 0:00:08 bytes 74329 TCP FINs
+Apr 09 03:47:55 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841029 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50402 (192.168.10.18/59248)
+Apr 09 03:47:55 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841030 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/35042 (192.168.10.18/48103)
+Apr 09 03:47:55 boundary-fw-1 %ASA-6-302013: Built inbound TCP connection 841031 for outside:192.168.8.118/56225 (192.168.8.118/56225) to inside:192.168.9.31/443 (192.168.9.31/443) (pcerf)
+Apr 09 03:47:55 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841026 for outside:34.215.24.225/8088 to inside:192.168.9.30/35038 duration 0:00:05 bytes 4762 TCP FINs
+Apr 09 03:47:55 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841029 for outside:34.215.24.225/443 to inside:192.168.9.30/50402 duration 0:00:00 bytes 3725 TCP Reset-I
+Apr 09 03:47:55 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/59248 flags ACK  on interface outside
+Apr 09 03:47:55 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/59248 flags FIN ACK  on interface outside
+Apr 09 03:47:55 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/59248 flags FIN ACK  on interface outside
+Apr 09 03:47:57 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/59248 flags FIN PSH ACK  on interface outside
+Apr 09 03:47:57 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841021 for outside:34.215.24.225/8088 to inside:192.168.9.30/35030 duration 0:00:09 bytes 71067 TCP FINs
+Apr 09 03:47:57 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/59248 flags FIN PSH ACK  on interface outside
+Apr 09 03:47:58 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841033 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/35044 (192.168.10.18/40781)
+Apr 09 03:47:58 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841014 for outside:34.215.24.225/8088 to inside:192.168.9.30/35020 duration 0:00:13 bytes 74555 TCP FINs
+Apr 09 03:47:58 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/8088 to 192.168.10.18/32125 flags FIN ACK  on interface outside
+Apr 09 03:47:58 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841024 for outside:34.215.24.225/8088 to inside:192.168.9.30/35034 duration 0:00:09 bytes 68072 TCP FINs
+Apr 09 03:47:58 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/59248 flags FIN PSH ACK  on interface outside
+Apr 09 03:47:58 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/64091 to outside:192.168.10.18/47331 duration 0:00:30
+Apr 09 03:48:00 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/51207 to outside:192.168.10.18/11809 duration 0:00:30
+Apr 09 03:48:00 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.50/52589 to outside:192.168.10.18/9971 duration 0:00:30
+Apr 09 03:48:00 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.50/52590 to outside:192.168.10.18/29647 duration 0:00:30
+Apr 09 03:48:00 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50366 to outside:192.168.10.18/17357 duration 0:00:30
+Apr 09 03:48:01 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/60995 to outside:192.168.10.18/3861 duration 0:00:30
+Apr 09 03:48:01 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/59248 flags FIN PSH ACK  on interface outside
+Apr 09 03:48:03 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841034 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/35046 (192.168.10.18/48358)
+Apr 09 03:48:03 boundary-fw-1 %ASA-6-302013: Built inbound TCP connection 841035 for outside:192.168.8.110/50121 (192.168.8.110/50121) to inside:192.168.9.31/443 (192.168.9.31/443) (bgist)
+Apr 09 03:48:03 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841030 for outside:34.215.24.225/8088 to inside:192.168.9.30/35042 duration 0:00:05 bytes 6328 TCP FINs
+Apr 09 03:48:03 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/4251 flags FIN PSH ACK  on interface outside
+Apr 09 03:48:03 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840974 for outside:192.168.8.110/50117 to inside:192.168.9.31/443 duration 0:01:08 bytes 3290 TCP FINs (bgist)
+Apr 09 03:48:04 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841036 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50410 (192.168.10.18/47922)
+Apr 09 03:48:04 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841035 for outside:192.168.8.110/50121 to inside:192.168.9.31/443 duration 0:00:01 bytes 3289 TCP FINs (bgist)
+Apr 09 03:48:04 boundary-fw-1 %ASA-6-106015: Deny TCP (no connection) from 192.168.8.110/50121 to 192.168.9.31/443 flags RST  on interface outside
+Apr 09 03:48:04 boundary-fw-1 %ASA-6-106015: Deny TCP (no connection) from 192.168.8.110/50121 to 192.168.9.31/443 flags RST  on interface outside
+Apr 09 03:48:04 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/34312 flags FIN PSH ACK  on interface outside
+Apr 09 03:48:04 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841036 for outside:34.215.24.225/443 to inside:192.168.9.30/50410 duration 0:00:00 bytes 3725 TCP Reset-I
+Apr 09 03:48:06 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50368 to outside:192.168.10.18/52628 duration 0:00:30
+Apr 09 03:48:06 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841033 for outside:34.215.24.225/8088 to inside:192.168.9.30/35044 duration 0:00:05 bytes 4893 TCP FINs
+Apr 09 03:48:07 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841039 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50412 (192.168.10.18/45956)
+Apr 09 03:48:07 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/59248 flags FIN PSH ACK  on interface outside
+Apr 09 03:48:09 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50370 to outside:192.168.10.18/16976 duration 0:00:30
+Apr 09 03:48:09 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 841040 for outside:75.75.75.75/53 to inside:192.168.9.50/49220 duration 0:00:00 bytes 96
+Apr 09 03:48:10 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841034 for outside:34.215.24.225/8088 to inside:192.168.9.30/35046 duration 0:00:05 bytes 4980 TCP FINs
+Apr 09 03:48:10 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841039 for outside:34.215.24.225/443 to inside:192.168.9.30/50412 duration 0:00:02 bytes 3592 TCP Reset-I
+Apr 09 03:48:10 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/45956 flags ACK  on interface outside
+Apr 09 03:48:10 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/45956 flags FIN ACK  on interface outside
+Apr 09 03:48:10 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/45956 flags FIN ACK  on interface outside
+Apr 09 03:48:12 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:48:12 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/45956 flags FIN PSH ACK  on interface outside
+Apr 09 03:48:12 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841041 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50414 (192.168.10.18/28742)
+Apr 09 03:48:12 boundary-fw-1 %ASA-6-302013: Built inbound TCP connection 841042 for outside:192.168.8.109/55328 (192.168.8.109/55328) to inside:192.168.9.31/443 (192.168.9.31/443) (jwortoski)
+Apr 09 03:48:12 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/45956 flags FIN PSH ACK  on interface outside
+Apr 09 03:48:12 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841041 for outside:34.215.24.225/443 to inside:192.168.9.30/50414 duration 0:00:00 bytes 3725 TCP FINs
+Apr 09 03:48:13 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/45956 flags FIN PSH ACK  on interface outside
+Apr 09 03:48:13 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 841043 for outside:75.75.75.75/53 to inside:192.168.9.50/60995 duration 0:00:00 bytes 104
+Apr 09 03:48:16 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 841044 for outside:75.75.75.75/53 to inside:192.168.9.50/53405 duration 0:00:00 bytes 148
+Apr 09 03:48:16 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50372 to outside:192.168.10.18/35293 duration 0:00:30
+Apr 09 03:48:16 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/45956 flags FIN PSH ACK  on interface outside
+Apr 09 03:48:18 boundary-fw-1 %ASA-4-106023: Deny tcp src inside:192.168.9.50/52602 dst outside:204.107.141.25/4282 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:48:19 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841045 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50416 (192.168.10.18/55376)
+Apr 09 03:48:19 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841045 for outside:34.215.24.225/443 to inside:192.168.9.30/50416 duration 0:00:00 bytes 3725 TCP Reset-I
+Apr 09 03:48:19 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/55376 flags ACK  on interface outside
+Apr 09 03:48:19 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/55376 flags FIN ACK  on interface outside
+Apr 09 03:48:19 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/55376 flags FIN ACK  on interface outside
+Apr 09 03:48:21 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/59248 flags FIN PSH ACK  on interface outside
+Apr 09 03:48:21 boundary-fw-1 %ASA-6-302013: Built inbound TCP connection 841046 for outside:192.168.8.118/56229 (192.168.8.118/56229) to inside:192.168.9.31/443 (192.168.9.31/443) (pcerf)
+Apr 09 03:48:21 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/55376 flags FIN PSH ACK  on interface outside
+Apr 09 03:48:21 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50374 to outside:192.168.10.18/4251 duration 0:00:30
+Apr 09 03:48:21 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841031 for outside:192.168.8.118/56225 to inside:192.168.9.31/443 duration 0:00:17 bytes 19683 TCP FINs (pcerf)
+Apr 09 03:48:21 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/55376 flags FIN PSH ACK  on interface outside
+Apr 09 03:48:21 boundary-fw-1 %ASA-6-302013: Built inbound TCP connection 841047 for outside:192.168.8.109/55330 (192.168.8.109/55330) to inside:192.168.9.31/443 (192.168.9.31/443) (jwortoski)
+Apr 09 03:48:22 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/35014 to outside:192.168.10.18/63047 duration 0:00:30
+Apr 09 03:48:22 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/35016 to outside:192.168.10.18/52438 duration 0:00:30
+Apr 09 03:48:22 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841042 for outside:192.168.8.109/55328 to inside:192.168.9.31/443 duration 0:00:07 bytes 19555 TCP FINs (jwortoski)
+Apr 09 03:48:22 boundary-fw-1 %ASA-6-302013: Built inbound TCP connection 841048 for outside:192.168.8.118/56230 (192.168.8.118/56230) to inside:192.168.9.31/443 (192.168.9.31/443) (pcerf)
+Apr 09 03:48:22 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/45956 flags FIN PSH ACK  on interface outside
+Apr 09 03:48:22 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/55376 flags FIN PSH ACK  on interface outside
+Apr 09 03:48:24 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841049 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/35056 (192.168.10.18/39693)
+Apr 09 03:48:24 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841050 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/35058 (192.168.10.18/35720)
+Apr 09 03:48:24 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841051 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/35060 (192.168.10.18/51771)
+Apr 09 03:48:24 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841046 for outside:192.168.8.118/56229 to inside:192.168.9.31/443 duration 0:00:01 bytes 4032 TCP FINs (pcerf)
+Apr 09 03:48:24 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/35018 to outside:192.168.10.18/24618 duration 0:00:30
+Apr 09 03:48:24 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/35020 to outside:192.168.10.18/32125 duration 0:00:30
+Apr 09 03:48:24 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50384 to outside:192.168.10.18/34312 duration 0:00:30
+Apr 09 03:48:24 boundary-fw-1 %ASA-6-302013: Built inbound TCP connection 841052 for outside:192.168.8.109/55331 (192.168.8.109/55331) to inside:192.168.9.31/443 (192.168.9.31/443) (jwortoski)
+Apr 09 03:48:25 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841047 for outside:192.168.8.109/55330 to inside:192.168.9.31/443 duration 0:00:02 bytes 3386 TCP FINs (jwortoski)
+Apr 09 03:48:25 boundary-fw-1 %ASA-6-302013: Built inbound TCP connection 841053 for outside:192.168.8.118/56232 (192.168.8.118/56232) to inside:192.168.9.31/443 (192.168.9.31/443) (pcerf)
+Apr 09 03:48:25 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/35024 to outside:192.168.10.18/3326 duration 0:00:30
+Apr 09 03:48:25 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841048 for outside:192.168.8.118/56230 to inside:192.168.9.31/443 duration 0:00:02 bytes 2547 TCP FINs (pcerf)
+Apr 09 03:48:25 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841053 for outside:192.168.8.118/56232 to inside:192.168.9.31/443 duration 0:00:00 bytes 1804 TCP FINs (pcerf)
+Apr 09 03:48:25 boundary-fw-1 %ASA-6-106015: Deny TCP (no connection) from 192.168.8.118/56232 to 192.168.9.31/443 flags RST  on interface outside
+Apr 09 03:48:25 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/55376 flags FIN PSH ACK  on interface outside
+Apr 09 03:48:27 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/35026 to outside:192.168.10.18/29727 duration 0:00:30
+Apr 09 03:48:27 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/35028 to outside:192.168.10.18/11945 duration 0:00:30
+Apr 09 03:48:27 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 841055 for outside:75.75.75.75/53 to inside:192.168.9.50/59002 duration 0:00:00 bytes 199
+Apr 09 03:48:27 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 841056 for outside:75.75.75.75/53 to inside:192.168.9.50/49220 duration 0:00:00 bytes 96
+Apr 09 03:48:27 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/54793 to outside:192.168.10.18/64082 duration 0:00:30
+Apr 09 03:48:27 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/53405 to outside:192.168.10.18/25696 duration 0:00:30
+Apr 09 03:48:28 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841057 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50424 (192.168.10.18/20022)
+Apr 09 03:48:28 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841058 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/35064 (192.168.10.18/13457)
+Apr 09 03:48:28 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/35030 to outside:192.168.10.18/17022 duration 0:00:30
+Apr 09 03:48:28 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/35032 to outside:192.168.10.18/37698 duration 0:00:30
+Apr 09 03:48:28 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841057 for outside:34.215.24.225/443 to inside:192.168.9.30/50424 duration 0:00:00 bytes 3725 TCP Reset-I
+Apr 09 03:48:28 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/20022 flags ACK  on interface outside
+Apr 09 03:48:28 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/20022 flags FIN ACK  on interface outside
+Apr 09 03:48:28 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/20022 flags FIN ACK  on interface outside
+Apr 09 03:48:30 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/20022 flags FIN PSH ACK  on interface outside
+Apr 09 03:48:30 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841059 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/35066 (192.168.10.18/61148)
+Apr 09 03:48:30 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/35034 to outside:192.168.10.18/15487 duration 0:00:30
+Apr 09 03:48:30 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/20022 flags FIN PSH ACK  on interface outside
+Apr 09 03:48:31 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841051 for outside:34.215.24.225/8088 to inside:192.168.9.30/35060 duration 0:00:05 bytes 4924 TCP FINs
+Apr 09 03:48:31 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841049 for outside:34.215.24.225/8088 to inside:192.168.9.30/35056 duration 0:00:05 bytes 5009 TCP FINs
+Apr 09 03:48:31 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841050 for outside:34.215.24.225/8088 to inside:192.168.9.30/35058 duration 0:00:05 bytes 5106 TCP FINs
+Apr 09 03:48:31 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/20022 flags FIN PSH ACK  on interface outside
+Apr 09 03:48:33 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/55376 flags FIN PSH ACK  on interface outside
+Apr 09 03:48:33 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841060 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/35068 (192.168.10.18/20734)
+Apr 09 03:48:33 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50398 to outside:192.168.10.18/4550 duration 0:00:30
+Apr 09 03:48:33 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/35038 to outside:192.168.10.18/60812 duration 0:00:30
+Apr 09 03:48:33 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 841061 for outside:75.75.75.75/53 to inside:192.168.9.25/56209 duration 0:00:00 bytes 82
+Apr 09 03:48:34 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841062 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/35070 (192.168.10.18/42071)
+Apr 09 03:48:34 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 841063 for outside:75.75.75.75/53 to inside:192.168.9.26/38182 duration 0:00:00 bytes 82
+Apr 09 03:48:34 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/20022 flags FIN PSH ACK  on interface outside
+Apr 09 03:48:34 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/49220 to outside:192.168.10.18/9741 duration 0:00:30
+Apr 09 03:48:34 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/45956 flags FIN PSH ACK  on interface outside
+Apr 09 03:48:36 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841064 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50434 (192.168.10.18/3491)
+Apr 09 03:48:36 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841058 for outside:34.215.24.225/8088 to inside:192.168.9.30/35064 duration 0:00:05 bytes 5152 TCP FINs
+Apr 09 03:48:36 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841064 for outside:34.215.24.225/443 to inside:192.168.9.30/50434 duration 0:00:00 bytes 3725 TCP Reset-I
+Apr 09 03:48:36 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/3491 flags ACK  on interface outside
+Apr 09 03:48:36 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/3491 flags FIN ACK  on interface outside
+Apr 09 03:48:36 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/3491 flags FIN ACK  on interface outside
+Apr 09 03:48:37 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/3491 flags FIN PSH ACK  on interface outside
+Apr 09 03:48:37 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841059 for outside:34.215.24.225/8088 to inside:192.168.9.30/35066 duration 0:00:05 bytes 5152 TCP FINs
+Apr 09 03:48:37 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 841065 for outside:75.75.75.75/53 to inside:192.168.9.50/60995 duration 0:00:00 bytes 104
+Apr 09 03:48:37 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/3491 flags FIN PSH ACK  on interface outside
+Apr 09 03:48:37 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:48:39 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/3491 flags FIN PSH ACK  on interface outside
+Apr 09 03:48:39 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:48:39 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:48:39 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:48:39 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:48:39 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:48:39 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:48:40 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50402 to outside:192.168.10.18/59248 duration 0:00:30
+Apr 09 03:48:40 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/35042 to outside:192.168.10.18/48103 duration 0:00:30
+Apr 09 03:48:40 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841060 for outside:34.215.24.225/8088 to inside:192.168.9.30/35068 duration 0:00:05 bytes 4862 TCP FINs
+Apr 09 03:48:40 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/20022 flags FIN PSH ACK  on interface outside
+Apr 09 03:48:42 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:48:42 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841062 for outside:34.215.24.225/8088 to inside:192.168.9.30/35070 duration 0:00:05 bytes 5151 TCP FINs
+Apr 09 03:48:42 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/3491 flags FIN PSH ACK  on interface outside
+Apr 09 03:48:43 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/35044 to outside:192.168.10.18/40781 duration 0:00:30
+Apr 09 03:48:43 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841066 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50436 (192.168.10.18/12573)
+Apr 09 03:48:43 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841066 for outside:34.215.24.225/443 to inside:192.168.9.30/50436 duration 0:00:00 bytes 3725 TCP FINs
+Apr 09 03:48:43 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841000 for outside:35.186.213.138/443 to inside:192.168.9.50/52588 duration 0:01:00 bytes 7573 TCP FINs
+Apr 09 03:48:45 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.50/52588 to outside:192.168.10.18/41147 duration 0:01:00
+Apr 09 03:48:45 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/55376 flags FIN PSH ACK  on interface outside
+Apr 09 03:48:46 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 841067 for outside:75.75.75.75/53 to inside:192.168.9.50/49220 duration 0:00:00 bytes 96
+Apr 09 03:48:48 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841068 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/35076 (192.168.10.18/34148)
+Apr 09 03:48:48 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/35046 to outside:192.168.10.18/48358 duration 0:00:30
+Apr 09 03:48:48 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/3491 flags FIN PSH ACK  on interface outside
+Apr 09 03:48:49 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50410 to outside:192.168.10.18/47922 duration 0:00:30
+Apr 09 03:48:49 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 841069 for outside:75.75.75.75/53 to inside:192.168.9.50/53405 duration 0:00:00 bytes 148
+Apr 09 03:48:52 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841070 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50440 (192.168.10.18/45915)
+Apr 09 03:48:52 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50412 to outside:192.168.10.18/45956 duration 0:00:30
+Apr 09 03:48:52 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841070 for outside:34.215.24.225/443 to inside:192.168.9.30/50440 duration 0:00:00 bytes 3725 TCP FINs
+Apr 09 03:48:52 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/20022 flags FIN PSH ACK  on interface outside
+Apr 09 03:48:55 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841068 for outside:34.215.24.225/8088 to inside:192.168.9.30/35076 duration 0:00:05 bytes 5152 TCP FINs
+Apr 09 03:48:57 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50414 to outside:192.168.10.18/28742 duration 0:00:30
+Apr 09 03:48:58 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/60995 to outside:192.168.10.18/5833 duration 0:00:30
+Apr 09 03:49:00 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841071 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50442 (192.168.10.18/18215)
+Apr 09 03:49:00 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841071 for outside:34.215.24.225/443 to inside:192.168.9.30/50442 duration 0:00:00 bytes 3725 TCP Reset-I
+Apr 09 03:49:00 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/18215 flags ACK  on interface outside
+Apr 09 03:49:00 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/18215 flags FIN ACK  on interface outside
+Apr 09 03:49:00 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/18215 flags FIN ACK  on interface outside
+Apr 09 03:49:01 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/3491 flags FIN PSH ACK  on interface outside
+Apr 09 03:49:01 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/18215 flags FIN PSH ACK  on interface outside
+Apr 09 03:49:01 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/18215 flags FIN PSH ACK  on interface outside
+Apr 09 03:49:03 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/18215 flags FIN PSH ACK  on interface outside
+Apr 09 03:49:04 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:49:04 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50416 to outside:192.168.10.18/55376 duration 0:00:30
+Apr 09 03:49:04 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 841073 for outside:75.75.75.75/53 to inside:192.168.9.50/60995 duration 0:00:00 bytes 104
+Apr 09 03:49:04 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 841072 for outside:75.75.75.75/53 to inside:192.168.9.50/49220 duration 0:00:00 bytes 96
+Apr 09 03:49:06 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/18215 flags FIN PSH ACK  on interface outside
+Apr 09 03:49:07 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841074 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50444 (192.168.10.18/53579)
+Apr 09 03:49:07 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841075 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50446 (192.168.10.18/30886)
+Apr 09 03:49:07 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841074 for outside:34.215.24.225/443 to inside:192.168.9.30/50444 duration 0:00:00 bytes 3725 TCP Reset-I
+Apr 09 03:49:07 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/53579 flags ACK  on interface outside
+Apr 09 03:49:07 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/53579 flags FIN ACK  on interface outside
+Apr 09 03:49:07 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/53579 flags FIN ACK  on interface outside
+Apr 09 03:49:09 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/35056 to outside:192.168.10.18/39693 duration 0:00:30
+Apr 09 03:49:09 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/35058 to outside:192.168.10.18/35720 duration 0:00:30
+Apr 09 03:49:09 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/35060 to outside:192.168.10.18/51771 duration 0:00:30
+Apr 09 03:49:09 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/53579 flags FIN PSH ACK  on interface outside
+Apr 09 03:49:09 boundary-fw-1 %ASA-4-106023: Deny tcp src inside:192.168.9.50/52610 dst outside:204.107.141.25/4282 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:49:09 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/53579 flags FIN PSH ACK  on interface outside
+Apr 09 03:49:10 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/53579 flags FIN PSH ACK  on interface outside
+Apr 09 03:49:10 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841075 for outside:34.215.24.225/443 to inside:192.168.9.30/50446 duration 0:00:02 bytes 3592 TCP Reset-I
+Apr 09 03:49:10 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/30886 flags ACK  on interface outside
+Apr 09 03:49:10 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/30886 flags FIN ACK  on interface outside
+Apr 09 03:49:10 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 841076 for outside:75.75.75.75/53 to inside:192.168.9.50/54793 duration 0:00:00 bytes 266
+Apr 09 03:49:10 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/30886 flags FIN ACK  on interface outside
+Apr 09 03:49:12 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:49:12 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841077 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/35086 (192.168.10.18/22544)
+Apr 09 03:49:12 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841078 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/35088 (192.168.10.18/22390)
+Apr 09 03:49:12 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841079 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/35090 (192.168.10.18/1565)
+Apr 09 03:49:12 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/30886 flags FIN PSH ACK  on interface outside
+Apr 09 03:49:12 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 841080 for outside:75.75.75.75/53 to inside:192.168.9.50/50813 duration 0:00:00 bytes 157
+Apr 09 03:49:12 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/59002 to outside:192.168.10.18/16480 duration 0:00:30
+Apr 09 03:49:12 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/18215 flags FIN PSH ACK  on interface outside
+Apr 09 03:49:12 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/30886 flags FIN PSH ACK  on interface outside
+Apr 09 03:49:13 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841081 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/35092 (192.168.10.18/60019)
+Apr 09 03:49:13 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50424 to outside:192.168.10.18/20022 duration 0:00:30
+Apr 09 03:49:13 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/35064 to outside:192.168.10.18/13457 duration 0:00:30
+Apr 09 03:49:13 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/53579 flags FIN PSH ACK  on interface outside
+Apr 09 03:49:13 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/30886 flags FIN PSH ACK  on interface outside
+Apr 09 03:49:15 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841082 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/35094 (192.168.10.18/59330)
+Apr 09 03:49:15 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/35066 to outside:192.168.10.18/61148 duration 0:00:30
+Apr 09 03:49:15 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841083 for outside:34.215.24.225/9997 (34.215.24.225/9997) to inside:192.168.9.25/38596 (192.168.10.18/47095)
+Apr 09 03:49:16 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841084 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50458 (192.168.10.18/30578)
+Apr 09 03:49:16 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841084 for outside:34.215.24.225/443 to inside:192.168.9.30/50458 duration 0:00:00 bytes 3725 TCP FINs
+Apr 09 03:49:16 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/30886 flags FIN PSH ACK  on interface outside
+Apr 09 03:49:18 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841085 for outside:34.215.24.225/9997 (34.215.24.225/9997) to inside:192.168.9.26/50174 (192.168.10.18/46234)
+Apr 09 03:49:18 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/35068 to outside:192.168.10.18/20734 duration 0:00:30
+Apr 09 03:49:18 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.25/56209 to outside:192.168.10.18/5677 duration 0:00:30
+Apr 09 03:49:18 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 840925 for outside:23.200.24.47/443 to inside:192.168.9.50/52557 duration 0:03:00 bytes 3602 TCP FINs
+Apr 09 03:49:19 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841086 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/35098 (192.168.10.18/48107)
+Apr 09 03:49:19 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/35070 to outside:192.168.10.18/42071 duration 0:00:30
+Apr 09 03:49:19 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841077 for outside:34.215.24.225/8088 to inside:192.168.9.30/35086 duration 0:00:05 bytes 5102 TCP FINs
+Apr 09 03:49:19 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841079 for outside:34.215.24.225/8088 to inside:192.168.9.30/35090 duration 0:00:05 bytes 4999 TCP FINs
+Apr 09 03:49:19 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841078 for outside:34.215.24.225/8088 to inside:192.168.9.30/35088 duration 0:00:05 bytes 5190 TCP FINs
+Apr 09 03:49:19 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.26/38182 to outside:192.168.10.18/17691 duration 0:00:30
+Apr 09 03:49:19 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/53579 flags FIN PSH ACK  on interface outside
+Apr 09 03:49:21 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50434 to outside:192.168.10.18/3491 duration 0:00:30
+Apr 09 03:49:21 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841081 for outside:34.215.24.225/8088 to inside:192.168.9.30/35092 duration 0:00:05 bytes 5136 TCP FINs
+Apr 09 03:49:22 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841082 for outside:34.215.24.225/8088 to inside:192.168.9.30/35094 duration 0:00:05 bytes 5130 TCP FINs
+Apr 09 03:49:24 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/30886 flags FIN PSH ACK  on interface outside
+Apr 09 03:49:24 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841090 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50462 (192.168.10.18/13038)
+Apr 09 03:49:24 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 841087 for outside:75.75.75.75/53 to inside:192.168.9.50/49220 duration 0:00:00 bytes 96
+Apr 09 03:49:24 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 841088 for outside:75.75.75.75/53 to inside:192.168.9.50/60995 duration 0:00:00 bytes 104
+Apr 09 03:49:24 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 841089 for outside:75.75.75.75/53 to inside:192.168.9.50/53405 duration 0:00:00 bytes 148
+Apr 09 03:49:24 boundary-fw-1 %ASA-4-106023: Deny tcp src inside:192.168.9.50/52613 dst outside:204.107.141.25/4282 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:49:24 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841091 for outside:34.215.24.225/9997 (34.215.24.225/9997) to inside:192.168.9.31/65529 (192.168.10.18/64378)
+Apr 09 03:49:24 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/18215 flags FIN PSH ACK  on interface outside
+Apr 09 03:49:24 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841090 for outside:34.215.24.225/443 to inside:192.168.9.30/50462 duration 0:00:00 bytes 3725 TCP FINs
+Apr 09 03:49:25 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841092 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/35102 (192.168.10.18/16571)
+Apr 09 03:49:27 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841086 for outside:34.215.24.225/8088 to inside:192.168.9.30/35098 duration 0:00:05 bytes 5136 TCP FINs
+Apr 09 03:49:28 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50436 to outside:192.168.10.18/12573 duration 0:00:30
+Apr 09 03:49:28 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841093 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/35104 (192.168.10.18/12720)
+Apr 09 03:49:31 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/49220 to outside:192.168.10.18/13267 duration 0:00:30
+Apr 09 03:49:31 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841094 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50468 (192.168.10.18/9098)
+Apr 09 03:49:31 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841094 for outside:34.215.24.225/443 to inside:192.168.9.30/50468 duration 0:00:00 bytes 3725 TCP Reset-I
+Apr 09 03:49:31 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/53579 flags FIN PSH ACK  on interface outside
+Apr 09 03:49:31 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/9098 flags ACK  on interface outside
+Apr 09 03:49:31 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/9098 flags FIN ACK  on interface outside
+Apr 09 03:49:31 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/9098 flags FIN ACK  on interface outside
+Apr 09 03:49:33 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/35076 to outside:192.168.10.18/34148 duration 0:00:30
+Apr 09 03:49:33 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/9098 flags FIN PSH ACK  on interface outside
+Apr 09 03:49:33 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841092 for outside:34.215.24.225/8088 to inside:192.168.9.30/35102 duration 0:00:05 bytes 6326 TCP FINs
+Apr 09 03:49:33 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/9098 flags FIN PSH ACK  on interface outside
+Apr 09 03:49:34 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841096 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/35108 (192.168.10.18/53873)
+Apr 09 03:49:34 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/53405 to outside:192.168.10.18/33934 duration 0:00:30
+Apr 09 03:49:34 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/9098 flags FIN PSH ACK  on interface outside
+Apr 09 03:49:36 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/30886 flags FIN PSH ACK  on interface outside
+Apr 09 03:49:36 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841093 for outside:34.215.24.225/8088 to inside:192.168.9.30/35104 duration 0:00:05 bytes 4894 TCP FINs
+Apr 09 03:49:37 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50440 to outside:192.168.10.18/45915 duration 0:00:30
+Apr 09 03:49:37 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/9098 flags FIN PSH ACK  on interface outside
+Apr 09 03:49:40 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841097 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50472 (192.168.10.18/12284)
+Apr 09 03:49:40 boundary-fw-1 %ASA-4-106023: Deny tcp src inside:192.168.9.50/52616 dst outside:204.107.141.25/4282 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:49:40 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841097 for outside:34.215.24.225/443 to inside:192.168.9.30/50472 duration 0:00:00 bytes 3725 TCP FINs
+Apr 09 03:49:42 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:49:42 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841096 for outside:34.215.24.225/8088 to inside:192.168.9.30/35108 duration 0:00:05 bytes 5129 TCP FINs
+Apr 09 03:49:42 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 841099 for outside:75.75.75.75/53 to inside:192.168.9.50/60995 duration 0:00:00 bytes 104
+Apr 09 03:49:42 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 841098 for outside:75.75.75.75/53 to inside:192.168.9.50/49220 duration 0:00:00 bytes 96
+Apr 09 03:49:43 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:49:43 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:49:43 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:49:43 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:49:43 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:49:43 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:49:43 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:49:43 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:49:43 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:49:43 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:49:43 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:49:43 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:49:43 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:49:43 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:49:43 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:49:43 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:49:43 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:49:43 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:49:43 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:49:43 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:49:43 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:49:43 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:49:43 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:49:43 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:49:43 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:49:43 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:49:43 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:49:43 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:49:43 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:49:43 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:49:43 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:49:43 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:49:43 boundary-fw-1 %ASA-4-106023: Deny udp src inside:192.168.9.20/38524 dst outside:192.168.10.106/514 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:49:43 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/9098 flags FIN PSH ACK  on interface outside
+Apr 09 03:49:45 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50442 to outside:192.168.10.18/18215 duration 0:00:30
+Apr 09 03:49:48 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841100 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50474 (192.168.10.18/43425)
+Apr 09 03:49:48 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841100 for outside:34.215.24.225/443 to inside:192.168.9.30/50474 duration 0:00:00 bytes 3725 TCP Reset-I
+Apr 09 03:49:48 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/43425 flags ACK  on interface outside
+Apr 09 03:49:48 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/43425 flags FIN ACK  on interface outside
+Apr 09 03:49:49 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/43425 flags FIN ACK  on interface outside
+Apr 09 03:49:49 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/43425 flags FIN PSH ACK  on interface outside
+Apr 09 03:49:49 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841101 for outside:34.215.24.225/9997 (34.215.24.225/9997) to inside:192.168.9.30/49800 (192.168.10.18/30666)
+Apr 09 03:49:49 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/60995 to outside:192.168.10.18/56102 duration 0:00:30
+Apr 09 03:49:49 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/43425 flags FIN PSH ACK  on interface outside
+Apr 09 03:49:51 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/43425 flags FIN PSH ACK  on interface outside
+Apr 09 03:49:52 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841102 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/35116 (192.168.10.18/58036)
+Apr 09 03:49:52 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841103 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/35118 (192.168.10.18/34564)
+Apr 09 03:49:52 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841104 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/35120 (192.168.10.18/29182)
+Apr 09 03:49:52 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50444 to outside:192.168.10.18/53579 duration 0:00:30
+Apr 09 03:49:52 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50446 to outside:192.168.10.18/30886 duration 0:00:30
+Apr 09 03:49:54 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841105 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/35122 (192.168.10.18/56241)
+Apr 09 03:49:54 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841106 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/35124 (192.168.10.18/60553)
+Apr 09 03:49:54 boundary-fw-1 %ASA-3-710003: TCP access denied by ACL from 78.107.163.189/10812 to outside:192.168.10.18/80
+Apr 09 03:49:55 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/43425 flags FIN PSH ACK  on interface outside
+Apr 09 03:49:55 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/54793 to outside:192.168.10.18/34248 duration 0:00:30
+Apr 09 03:49:57 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/35086 to outside:192.168.10.18/22544 duration 0:00:30
+Apr 09 03:49:57 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/35088 to outside:192.168.10.18/22390 duration 0:00:30
+Apr 09 03:49:57 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/35090 to outside:192.168.10.18/1565 duration 0:00:30
+Apr 09 03:49:57 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841107 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50488 (192.168.10.18/56911)
+Apr 09 03:49:57 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/9098 flags FIN PSH ACK  on interface outside
+Apr 09 03:49:57 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 841108 for outside:75.75.75.75/53 to inside:192.168.9.50/53405 duration 0:00:00 bytes 148
+Apr 09 03:49:57 boundary-fw-1 %ASA-4-106023: Deny tcp src inside:192.168.9.50/52620 dst outside:204.107.141.25/4282 by access-group "inside_access_in" [0x0, 0x0]
+Apr 09 03:49:57 boundary-fw-1 %ASA-6-305012: Teardown dynamic UDP translation from inside:192.168.9.50/50813 to outside:192.168.10.18/59567 duration 0:00:30
+Apr 09 03:49:57 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841107 for outside:34.215.24.225/443 to inside:192.168.9.30/50488 duration 0:00:00 bytes 3725 TCP Reset-I
+Apr 09 03:49:57 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/56911 flags ACK  on interface outside
+Apr 09 03:49:57 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/56911 flags FIN ACK  on interface outside
+Apr 09 03:49:57 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/56911 flags FIN ACK  on interface outside
+Apr 09 03:49:58 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/35092 to outside:192.168.10.18/60019 duration 0:00:30
+Apr 09 03:49:58 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/56911 flags FIN PSH ACK  on interface outside
+Apr 09 03:49:58 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/56911 flags FIN PSH ACK  on interface outside
+Apr 09 03:50:00 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/35094 to outside:192.168.10.18/59330 duration 0:00:30
+Apr 09 03:50:00 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841103 for outside:34.215.24.225/8088 to inside:192.168.9.30/35118 duration 0:00:05 bytes 5470 TCP FINs
+Apr 09 03:50:00 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841102 for outside:34.215.24.225/8088 to inside:192.168.9.30/35116 duration 0:00:05 bytes 5016 TCP FINs
+Apr 09 03:50:00 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841104 for outside:34.215.24.225/8088 to inside:192.168.9.30/35120 duration 0:00:05 bytes 4941 TCP FINs
+Apr 09 03:50:00 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/56911 flags FIN PSH ACK  on interface outside
+Apr 09 03:50:00 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 841109 for outside:75.75.75.75/53 to inside:192.168.9.50/49220 duration 0:00:00 bytes 96
+Apr 09 03:50:01 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/50458 to outside:192.168.10.18/30578 duration 0:00:30
+Apr 09 03:50:01 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/43425 flags FIN PSH ACK  on interface outside
+Apr 09 03:50:01 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841105 for outside:34.215.24.225/8088 to inside:192.168.9.30/35122 duration 0:00:05 bytes 5003 TCP FINs
+Apr 09 03:50:01 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841106 for outside:34.215.24.225/8088 to inside:192.168.9.30/35124 duration 0:00:05 bytes 5059 TCP FINs
+Apr 09 03:50:03 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841110 for outside:34.215.24.225/8088 (34.215.24.225/8088) to inside:192.168.9.30/35128 (192.168.10.18/7164)
+Apr 09 03:50:03 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.50/52557 to outside:192.168.10.18/12296 duration 0:03:30
+Apr 09 03:50:03 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/56911 flags FIN PSH ACK  on interface outside
+Apr 09 03:50:03 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 840994 for outside:52.173.193.166/123 to inside:192.168.9.31/123 duration 0:02:01 bytes 96
+Apr 09 03:50:04 boundary-fw-1 %ASA-6-305012: Teardown dynamic TCP translation from inside:192.168.9.30/35098 to outside:192.168.10.18/48107 duration 0:00:30
+Apr 09 03:50:04 boundary-fw-1 %ASA-6-302013: Built outbound TCP connection 841111 for outside:34.215.24.225/443 (34.215.24.225/443) to inside:192.168.9.30/50492 (192.168.10.18/44091)
+Apr 09 03:50:04 boundary-fw-1 %ASA-6-302014: Teardown TCP connection 841111 for outside:34.215.24.225/443 to inside:192.168.9.30/50492 duration 0:00:00 bytes 3725 TCP Reset-I
+Apr 09 03:50:04 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/44091 flags ACK  on interface outside
+Apr 09 03:50:04 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/44091 flags FIN ACK  on interface outside
+Apr 09 03:50:04 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/44091 flags FIN ACK  on interface outside
+Apr 09 03:50:06 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/44091 flags FIN PSH ACK  on interface outside
+Apr 09 03:50:06 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/44091 flags FIN PSH ACK  on interface outside
+Apr 09 03:50:07 boundary-fw-1 %ASA-6-302016: Teardown UDP connection 841112 for outside:75.75.75.75/53 to inside:192.168.9.50/60995 duration 0:00:00 bytes 104
+Apr 09 03:50:07 boundary-fw-1 %ASA-2-106001: Inbound TCP connection denied from 34.215.24.225/443 to 192.168.10.18/44091 flags FIN PSH ACK  on interface outside

@@ -1,0 +1,50 @@
+<%!
+app_name = "Splunk_SA_CIM"
+
+%>\
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>
+       CIM Setup
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+</head>
+
+<body class="locale-${i18n.current_lang()[0]|h} ${theme if theme is not UNDEFINED else 'enterprise'}">
+    <script src="${make_url('/config?autoload=1')}" crossorigin="use-credentials"></script>
+    <script src="${make_url('/static/js/i18n.js')}"></script>
+    <script src="${make_url('/i18ncatalog?autoload=1')}"></script>
+    % if theme is not UNDEFINED:
+    <link rel="stylesheet" type="text/css"
+        href="${make_url('/static/app/Splunk_SA_CIM/bootstrap-%s.css' % theme)}" />
+    % else:
+    <link rel="stylesheet" type="text/css"
+        href="${make_url('/static/app/Splunk_SA_CIM/bootstrap-enterprise.css')}" />
+    % endif
+
+    % if theme is not UNDEFINED:
+    <link rel="stylesheet" type="text/css"
+        href="${make_url('/static/app/Splunk_SA_CIM/cim_setup-%s.css' % theme)}" />
+    % else:
+    <link rel="stylesheet" type="text/css"
+        href="${make_url('/static/app/Splunk_SA_CIM/cim_setup-enterprise.css')}" />
+    % endif
+
+    <script>
+        __splunkd_partials__ = ${json_decode(splunkd)};
+        window.ES_CURRENT_THEME = "${theme if theme is not UNDEFINED else 'enterprise'}";
+    </script>
+
+    <%
+    page_path = "/static/app/" + app_name + "/cim_setup.js"
+    %>
+
+    <script src="${make_url(page_path)}"></script>
+</body>
+
+</html>

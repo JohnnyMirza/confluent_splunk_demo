@@ -1,0 +1,6 @@
+<dashboard version="1.1">
+  <label>Modular Action API Key</label>
+  <row>
+		<html><p>This view has been deprecated.</p></html>
+	</row>
+</dashboard>

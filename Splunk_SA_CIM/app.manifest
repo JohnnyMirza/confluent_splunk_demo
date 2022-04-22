@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "2.0.0",
+  "info": {
+    "title": "Splunk Supporting Common Information Model Add-on",
+    "id": {
+      "group": null,
+      "name": "Splunk_SA_CIM",
+      "version": "5.0.1"
+    },
+    "author": [
+      {
+        "name": "Splunk, Inc.",
+        "email": "support@splunk.com",
+        "company": "Splunk, Inc."
+      }
+    ],
+    "releaseDate": null,
+    "description": "Splunk Supporting Common Information Model Add-on",
+    "classification": {
+      "intendedAudience": null,
+      "categories": [],
+      "developmentStatus": null
+    },
+    "commonInformationModels": null,
+    "license": {
+      "name": null,
+      "text": "./license-eula.txt",
+      "uri": null
+    },
+    "privacyPolicy": {
+      "name": null,
+      "text": null,
+      "uri": null
+    },
+    "releaseNotes": {
+      "name": null,
+      "text": "./README.txt",
+      "uri": null
+    }
+  },
+  "dependencies": null,
+  "tasks": [
+    "batch://$SPLUNK_HOME/var/spool/splunk/...stash_common_action_model"
+  ],
+  "inputGroups": null,
+  "incompatibleApps": null,
+  "platformRequirements": null,
+  "supportedDeployments": [
+    "_standalone",
+    "_distributed",
+    "_search_head_clustering"
+  ],
+  "targetWorkloads": [
+    "_search_heads",
+    "_indexers"
+  ]
+}

@@ -1,0 +1,609 @@
+body.dark {
+    background-color: #111215
+}
+
+.dark .section-header {
+    border-bottom: 1px solid #C3CBD4;
+}
+
+.dark .section-header .title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 24px;
+}
+
+.dark .cimSetupWrapper {
+    border: 1px solid #C3CBD4;
+    margin: 30px auto;
+    width: 70%;
+    min-width: 1000px;
+}
+
+.dark #cim_setup_container .modal-footer {
+    border-top: 1px solid #C3CBD4;
+}
+
+.dark #cim_setup_container .modal-header {
+    border-bottom: 1px solid #C3CBD4;
+}
+
+.dark #cim_setup_container .modal-body {
+    padding: 20px;
+}
+
+.dark #cim_setup_container .alert {
+    font-size: 12px;
+}
+
+.dark #cim_setup_container .alert .icon-alert {
+    font-size: 150%;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+.dark .selectModelColumns {
+    position: relative;
+}
+
+.dark .tab {
+    display: inline-block;
+}
+
+.dark .layoutBodyColumns {
+    top: 0;
+    border-top: 1px solid #ccc;
+    bottom: 0;
+    overflow: auto;
+    position: relative;
+}
+
+.dark .layoutColLeft {
+    width: 360px;
+}
+
+.dark .layoutCol {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.dark .layoutColRight {
+    right: 0;
+    left: 360px;
+}
+
+.dark .layoutColRight .tab-pane {
+    margin: 12px 0 12px 20px;
+}
+
+.dark .tab-pane-main {
+    display: none;
+}
+
+.dark .tab-pane-main.active {
+    display: block;
+}
+
+.dark .layoutRow {
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    min-height: 600px;
+}
+
+.dark .scroll-y {
+    overflow-y: auto;
+}
+
+.dark #initial_prompt {
+    left: 0;
+    right: 0;
+    top: 80px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    color: #999;
+}
+
+.dark .inputForm {
+    margin: 20px;
+}
+
+.dark .sideTabItem {
+    padding: 10px 30px 10px 20px;
+    position: relative;
+    font-size: 14px;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid transparent;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    margin-left: 40px;
+    cursor: pointer;
+    margin-right: -1px;
+}
+
+.dark .sideTabItem:hover {
+    border-right: 3px solid #E1E6EB;
+}
+
+.dark .sideTabList {
+    padding-top: 10px;
+    border-right: 1px solid #CCC;
+}
+
+.dark .sideTabList .link-wrap {
+    display: block;
+    text-decoration: none !important;
+}
+
+.dark .sideTabItem.selected {
+    border-right: 3px solid #007ABD;
+}
+
+.dark .sideTabName {
+    line-height: 20px;
+}
+
+.dark .indexes_list {
+    color: #999;
+    font-size: 11px;
+}
+
+.dark .more {
+    text-decoration: underline;
+    color: #1e93c6;
+    cursor: pointer;
+    padding-left: 0.5em;
+}
+
+.dark .col-visibility label.checkbox {
+    padding: 2px 0px 2px 0px;
+}
+
+.dark .btn.nopointer {
+    pointer-events: none;
+    cursor: default;
+}
+
+.dark .filter-control {
+    margin: 20px 0 10px 0;
+}
+
+.dark .filter-control a.control-clear {
+    position: relative;
+    left: -25px;
+    top: 3px;
+    line-height: 22px;
+    font-size: 18px;
+    color: #999999;
+}
+
+.dark .table-chrome.table-striped>tbody>tr:nth-child(odd)>td {
+    min-width: 20px;
+}
+
+.dark .nav.nav-tabs {
+    border-top-style: none;
+    border-bottom: none;
+}
+
+.dark .control.btn-group {
+    padding-top: 5px;
+}
+
+.dark a.dropdown-toggle.disabled {
+    color: #999;
+}
+
+.dark .timepicker-control-menu .btn {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-left: none;
+}
+
+.dark .shared-controls-multiinputcontrol {
+    display: inline-block
+}
+
+.dark .number-text-container input,
+.dark .number-text-container span {
+    min-width: 200px;
+}
+
+.dark .indexes-whitelist-help.help-block {
+    margin-left: 0;
+}
+
+.dark .loading {
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+}
+
+
+/* Manage API Styles */
+
+.dark .layoutColRight .tab-pane.manageAPIKeyForm {
+    margin: 12px 20px;
+}
+
+.dark .manageAPIKeyForm input {
+    width: 100%
+}
+
+.dark .manageAPIKeyForm .actionButtons {
+    text-align: center;
+}
+
+.dark .manageAPIKeyForm .actionButtons a {
+    width: 30%;
+    margin: 2px;
+}
+
+.dark .manageAPIKeyForm .status {
+    padding: 20px 20px 0;
+    text-align: center;
+}
+
+.dark .manageAPIKeyForm .apiForm {
+    width: 350px;
+    margin-top: 20px;
+}
+
+
+/* Forms */
+
+.dark label,
+.dark .form-horizontal .control-label {
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+/* Text Input */
+
+.dark .uneditable-input,
+.dark input[type=color],
+.dark input[type=date],
+.dark input[type=datetime-local],
+.dark input[type=datetime],
+.dark input[type=email],
+.dark input[type=month],
+.dark input[type=number],
+.dark input[type=password],
+.dark input[type=search],
+.dark input[type=tel],
+.dark input[type=text],
+.dark input[type=time],
+.dark input[type=url],
+.dark input[type=week],
+.dark select,
+.dark textarea {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    color: rgba(255, 255, 255, 0.98);
+    display: block;
+    font-family: 'Splunk Platform Sans', 'Splunk Data Sans', Roboto, Droid, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    min-height: 30px;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+
+/* Button  */
+
+.dark .btn,
+.dark .btn-pill,
+.dark .modal-header .close,
+.dark .dropdown-toggle {
+    background: transparent none repeat;
+    margin: 0;
+    overflow: visible;
+    widows: 2;
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 0.98);
+    display: inline-block;
+    font-family: 'Splunk Platform Sans', 'Splunk Data Sans', Roboto, Droid, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    outline: medium none rgba(57, 147, 255, 0.7);
+    cursor: pointer;
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    white-space: nowrap;
+    flex-grow: 1;
+    min-width: 0;
+    max-width: 100%;
+    line-height: 20px;
+    min-height: 32px;
+    padding: 6px 15px;
+    border-radius: 30px;
+}
+
+.dark .btn.active,
+.dark .btn-pill.active {
+    background: #27292e;
+    /*backgroundColorPopup*/
+}
+
+.dark .btn:hover,
+.dark .modal-header .close:hover {
+    box-shadow: 0 0 0 2px #111215, 0 0 0 5px rgb(255 255 255 / 5%);
+    background: transparent none repeat;
+}
+
+.dark .btn:focus,
+.dark .modal-header .close:focus {
+    box-shadow: 0 0 0 2px #111215, 0 0 0 5px rgb(57 147 255 / 70%);
+}
+
+.dark .btn-primary,
+.dark .btn-primary:hover {
+    color: #000;
+    background: #3993FF;
+    /*interactiveColorPrimary*/
+    border: none;
+}
+
+.dark .btn-secondary:hover,
+.dark .btn-group-radio>.btn.active {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 0 2px #111215, 0 0 0 5px rgb(255 255 255 / 5%);
+}
+
+.dark .btn-group>.btn,
+.dark .btn-group>.btn-combo>.btn {
+    position: relative;
+    border-radius: 0;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.dark .btn-group>.btn-combo:last-child>.btn:last-child,
+.dark .btn-group>.btn-combo:last-child>.dropdown-toggle,
+.dark .btn-group>.btn:last-child,
+.dark .btn-group>.dropdown-toggle {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.dark .btn-group>.btn-combo:first-child>.btn:first-child,
+.dark .btn-group>.btn-combo:first-child>.drodown-toggle,
+.dark .btn-group>.btn:first-child {
+    margin-left: 0;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.dark .btn-group>.btn+.btn,
+.dark .btn-group>.btn+.btn-combo,
+.dark .btn-group>.btn-combo+.btn,
+.dark .btn-group>.btn-combo+.btn-combo {
+    margin-left: -1px;
+}
+
+.dark .splunk-dropdown.splunk-choice-input button,
+.dark .splunk-dropdown.splunk-choice-input button:hover {
+    background: none;
+    color: rgba(255, 255, 255, 0.98);
+    /* had to pick from page */
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+
+/* Time Range Picker  */
+
+.dark .shared-timerangepicker-dialog {
+    background: none;
+}
+
+.dark .accordion-body {
+    background: none;
+}
+
+.dark .accordion-group .accordion-toggle {
+    color: rgba(255, 255, 255, 0.98);
+    /* had to pick from page */
+    background: #272a2f;
+    /* interactiveColorBackground  */
+}
+
+.dark .accordion-group .accordion-toggle:hover {
+    background: rgb(50, 53, 57);
+    /* had to pick from page */
+}
+
+.dark .popdown-dialog {
+    background: #111215;
+    /* backgroundColorPage */
+}
+
+.dark .popdown-dialog,
+.dark .popdown-dialog-footer {
+    border-color: #33343b;
+    /* neutral100 */
+}
+
+.dark .popdown-dialog .arrow,
+.dark .popdown-dialog .arrow:before {
+    border-bottom: 8px solid #33343b;
+    /* neutral100 */
+}
+
+
+/* Modal */
+
+.dark .modal,
+.dark .modal-header,
+.dark .modal-body,
+.dark .modal-footer {
+    background: #1e2024;
+    /*backgroundColorDialog*/
+    color: rgba(255, 255, 255, 0.98);
+    /* had to pick from page */
+    border: none;
+}
+
+.dark .modal-header .modal-title {
+    color: rgba(255, 255, 255, 0.98);
+    /* had to pick from page */
+}
+
+.dark .modal-header .close {
+    position: absolute;
+    color: #FFF;
+    font-size: 0;
+    border: none;
+    padding: 4px 11px 0px 11px;
+    width: auto;
+}
+
+.dark .close:before {
+    color: rgba(255, 255, 255, 0.98);
+    /* had to pick from page */
+    font-size: 25px;
+}
+
+
+/* Dropdown */
+
+.dark .dropdown-menu {
+    border: none;
+    box-shadow: 0px 26px 103px rgb(0 0 0 / 64%), 0px 11px 18px rgb(0 0 0 / 32%), 0px 3px 6px rgb(0 0 0 / 30%);
+    border-radius: 4px;
+}
+
+.dark .dropdown-menu ul,
+.dark .dropdown-menu,
+.dark .dropdown-menu-main {
+    background: #1e2024;
+    /*backgroundColorDialog*/
+}
+
+.dark .dropdown-menu li>a {
+    color: rgba(255, 255, 255, 0.98);
+    /* had to pick from page */
+}
+
+.dark .dropdown-menu li>a:hover {
+    background: #27292e;
+    /*backgroundColorPopup*/
+}
+
+.dark .dropdown-menu li>a:focus {
+    outline: 0;
+    box-shadow: inset 0 0 0 3px rgb(57 147 255 / 70%);
+    background: #27292e;
+    /*backgroundColorPopup*/
+}
+
+.dark .dropdown-menu .arrow,
+.dark .dropdown-menu .arrow:before {
+    display: none;
+}
+
+
+/* Alerts */
+
+.dark .alert {
+    color: rgba(255, 255, 255, 0.98);
+    /* had to pick from page */
+}
+
+
+/* Table */
+
+.dark .table-striped thead:first-child tr:first-child th,
+.dark .table-striped>tbody>tr.odd>td,
+.dark .table-striped>tbody>tr.odd>th,
+.dark .table-striped>tbody>tr.even>td,
+.dark .table-striped>tbody>tr.even>th,
+.dark .table-striped>thead>tr>th,
+.dark .results-table .table {
+    background: none;
+}
+
+.dark .results-table .table td,
+.dark .results-table .table th {
+    border-color: #27292e;
+}
+
+.dark .table-chrome>thead>tr>th {
+    background: #272a2f;
+    border-color: #111215;
+}
+
+.dark .results-table tbody td.highlighted,
+.dark .results-table tbody tr.highlighted>td {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    /* important is necessary from the css file */
+}
+
+
+/* Checkbox  */
+
+.dark label.checkbox>.btn {
+    min-height: 16px;
+}
+
+
+/* Tabs */
+
+.dark .nav-tabs>li>a {
+    color: rgba(255, 255, 255, 0.98);
+    /* had to pick from page */
+}
+
+.dark .nav-tabs {
+    background: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+
+/* Color  */
+
+.dark p,
+.dark h1 {
+    color: rgba(255, 255, 255, 0.98);
+    /* had to pick from page */
+}
+
+
+/* Search Filter  */
+
+.dark header input[type=text]:hover,
+.dark header input[type=text]:focus,
+.dark header input[type=text] {
+    min-height: 0;
+    margin-top: 3px;
+    border: none;
+    background-color: #2B3033;
+    /* had to pick from page */
+    width: 120px;
+}
+
+.dark header .icon-search-thin {
+    display: none;
+}
+
+.dark .icon-identity,
+.dark .icon-asset {
+    filter: invert(1);
+}
