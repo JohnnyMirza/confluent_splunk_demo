@@ -146,7 +146,7 @@
         environment:
           - SPLUNK_START_ARGS=--accept-license
           - SPLUNK_PASSWORD=Password1
-          - SPLUNK_APPS_URL=https://raw.githubusercontent.com/JohnnyMirza/confluent_splunk_demo/main/splunk-add-on-for-cisco-asa_410.tgz
+          - SPLUNK_APPS_URL=https://raw.githubusercontent.com/jlamcon/confluent_splunk_demo/master/palo-alto-networks-add-on-for-splunk_710.tgz,https://raw.githubusercontent.com/JohnnyMirza/confluent_splunk_demo/main/splunk-add-on-for-cisco-asa_410.tgz
         volumes:
           - $PWD/splunk-uf1/:/opt/splunkforwarder/etc/apps/splunk-uf1/
         ports:
@@ -179,7 +179,7 @@
         environment:
           - SPLUNK_START_ARGS=--accept-license
           # - SPLUNK_HEC_TOKEN=3bca5f4c-1eff-4eee-9113-ea94c284478a
-          - SPLUNK_APPS_URL=https://raw.githubusercontent.com/JohnnyMirza/confluent_splunk_demo/main/splunk-add-on-for-cisco-asa_410.tgz
+          - SPLUNK_APPS_URL=https://raw.githubusercontent.com/jlamcon/confluent_splunk_demo/master/palo-alto-networks-add-on-for-splunk_710.tgz,https://raw.githubusercontent.com/JohnnyMirza/confluent_splunk_demo/main/splunk-add-on-for-cisco-asa_410.tgz
           - SPLUNK_PASSWORD=Password1
         ports:
           - 8089:8088

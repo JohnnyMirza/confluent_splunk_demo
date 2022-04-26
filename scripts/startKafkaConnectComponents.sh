@@ -48,7 +48,7 @@ DATA=$( cat << EOF
     "tasks.max": "1",
     "key.converter": "org.apache.kafka.connect.storage.StringConverter",
     "value.converter": "org.apache.kafka.connect.storage.StringConverter",
-    "topics": "CISCO_ASA_FILTER_106023, PAN_THREAT",
+    "topics": "CISCO_ASA_FILTER_106023,PAN_THREAT",
     "splunk.hec.token": "3bca5f4c-1eff-4eee-9113-ea94c284478a",
     "splunk.hec.uri": "https://splunk_search:8088",
     "splunk.hec.ssl.validate.certs": "false",
@@ -85,6 +85,8 @@ EOF
 )
 
 curl -X POST -H "${HEADER}" --data "${DATA}" http://localhost:8083/connectors
+
+
 
 
 echo "Starting the Splunk Sink connector - Raw"
@@ -140,6 +142,35 @@ EOF
 )
 
 curl -X POST -H "${HEADER}" --data "${DATA}" http://localhost:8083/connectors
+
+
+function wait_for_connector_to_be_configured () {
+  sleep 3
+  connector_name="SPLUNKSINK_HEC_PAN_TRAFFIC"
+  datagen_tasks="1"
+  prefix_cmd=""
+  set +e
+  # wait for all tasks to be FAILED with org.apache.kafka.connect.errors.ConnectException: Stopping connector: generated the configured xxx number of messages
+  MAX_WAIT=3600
+  CUR_WAIT=0
+  $prefix_cmd curl -s -X GET http://localhost:8083/connectors/${connector_name}/status | jq .tasks[].state | grep "RUNNING" | wc -l > /tmp/out.txt 2>&1
+  while [[ ! $(cat /tmp/out.txt) ]]; do
+    sleep 5
+    $prefix_cmd curl -s -X GET http://localhost:8083/connectors/${connector_name}/status | jq .tasks[].state | grep "RUNNING" | wc -l > /tmp/out.txt 2>&1
+    CUR_WAIT=$(( CUR_WAIT+10 ))
+    if [[ "$CUR_WAIT" -gt "$MAX_WAIT" ]]; then
+      echo -e "\nERROR: Please troubleshoot'.\n"
+      $prefix_cmd curl -s -X GET http://localhost:8083/connectors/${connector_name}/status | jq
+      exit 1
+    fi
+  done
+  curl -s -X PUT http://127.0.0.1:8083/connectors/SPLUNKSINK_HEC_PAN_TRAFFIC/pause
+
+  set -e
+}
+
+wait_for_connector_to_be_configured
+
 
 echo "Sleeping forever"
 sleep infinity
