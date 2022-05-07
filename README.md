@@ -62,7 +62,7 @@ Wait about 5 minutes or so for everything to start up, then point your web brows
 - As mentioned above, the cisco:asa logs are used for the demo
 - Go to localhost:9021 (or remote host URL)
 - Click on the Cluster->Topics->splunk-s2s-events
-- Observer the messages spooling, and the click the pause button and switch to card view
+- Observe the messages spooling, and the click the pause button and switch to card view
 - Look a specific record by expanding and then scroll through the fields
 - Notice the Splunk metadata fields (source, sourcetype, host, event, _meta)
 
@@ -165,7 +165,7 @@ Wait about 5 minutes or so for everything to start up, then point your web brows
     GROUP BY `sourcetype`, `action`, `hostname`, `messageID`, `src`, `dest`, `destport`
     EMIT CHANGES;
     ```
-### Now let's focus on Palo Alto pan:traffic events. 
+### Now let's focus on Palo Alto pan:traffic messages. 
   - ``` 
       CREATE STREAM PAN_TRAFFIC WITH (KAFKA_TOPIC='PAN_TRAFFIC', PARTITIONS=1, REPLICAS=1) as SELECT
         `event`,
@@ -213,7 +213,10 @@ Wait about 5 minutes or so for everything to start up, then point your web brows
 ### Let's bring the Log Subtype "Traffic" into Splunk on-demand.  Back in Confluent, the connector is already configured but paused.  Let's start it.
 
 
-### Now, the Log Subtype "TRAFFIC" shows up in Splunk.
+### Now, the Log Subtype "TRAFFIC" messages shows up in Splunk. 
+
+
+   - Similary, If you only want to bring the low values messages of a specific day (e.g. the day when a security incident occurs), you can easily extend the configuration to create a branch by filtering the 'pan:traffic' messages for the desiered day.
 
 ### Thanks To
 - *Phil Wild (https://github.com/pwildconfluentio) for helping this put together.*
