@@ -210,7 +210,7 @@ Wait about 5 minutes or so for everything to start up, then point your web brows
 ### In the 'pan:traffic" sourcetype, only the Log Subtype "THREAT" shows up.  It is only stored in Confluent right now.  
 
 
-### Let's bring in the Log Subtype "Traffic" the Splunk on-demand.  Back in Confluent, the connector is already configured but paused.  Let's start the connector.
+### Let's bring the Log Subtype "Traffic" into Splunk on-demand.  Back in Confluent, the connector is already configured but paused.  Let's start it.
 
 
 ### Now, the Log Subtype "TRAFFIC" shows up in Splunk.
