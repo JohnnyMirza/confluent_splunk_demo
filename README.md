@@ -159,7 +159,7 @@ Wait about 5 minutes or so for everything to start up, then point your web brows
     GROUP BY `sourcetype`, `action`, `hostname`, `messageID`, `src`, `dest`, `destport`
     EMIT CHANGES;
     ```
-### Now let's focus on Palo Alto pan:traffic events. 
+### Now let's focus on Palo Alto pan:traffic sourcetype events. 
   - ``` 
       CREATE STREAM PAN_TRAFFIC WITH (KAFKA_TOPIC='PAN_TRAFFIC', PARTITIONS=1, REPLICAS=1) as SELECT
         `event`,
@@ -170,7 +170,7 @@ Wait about 5 minutes or so for everything to start up, then point your web brows
       where ((`sourcetype` = 'pan:traffic') AND (`event` LIKE '%TRAFFIC%'))
       EMIT CHANGES;
     ```
-### Based on the Palo Alto Log Subtype, let's split the stream into "TRAFFIC" and "THREAT" branches
+### Based on the Palo Alto log_type, let's split the stream into "TRAFFIC" and "THREAT" branches
   - ``` 
       CREATE STREAM PAN_THREAT WITH (KAFKA_TOPIC='PAN_THREAT', PARTITIONS=1, REPLICAS=1) AS SELECT
         `event`,
@@ -201,13 +201,29 @@ Wait about 5 minutes or so for everything to start up, then point your web brows
 <img src="images/splunk_savings.png" width="80%" height="80%">
 </p> 
 
-### In the 'pan:traffic" sourcetype, only the Log Subtype "THREAT" shows up.  It is only stored in Confluent right now.  
+### In the 'pan:traffic" sourcetype, only the log_type "THREAT" shows up.  It is only stored in Confluent right now.  
 
+<p align="center">
+<img src="images/pan_logtype_threat_only.png" width="80%" height="80%">
+</p>
 
-### Let's bring in the Log Subtype "Traffic" the Splunk on-demand.  Back in Confluent, the connector is already configured but paused.  Let's start the connector.
+### Let's bring in the log_type "Traffic" the Splunk on-demand.  Back in Confluent, the connector is already configured but paused.  Let's start the connector.
 
+<p align="center">
+<img src="images/start_connector_pan_logtype_traffic.png" width="80%" height="80%">
+</p>
 
 ### Now, the Log Subtype "TRAFFIC" shows up in Splunk.
+
+<p align="center">
+<img src="images/pan_logtype_traffic_shows_up.png" width="80%" height="80%">
+</p>
+
+### Examine the ingestion into different Confluent topics. Note how the original ingestion to the 'splunk_s2s_events' topic is reduced drastically - the ingestion from the stream-processed branches PAN_THREAT, AGGREGATOR, and CISCO_ASA_FILTER_106023 are much smaller and the branch PAN_TRAFFIC can be ingested on-demand. You have saved your Splunk licenses!
+
+<p align="center">
+<img src="images/traffic_per_topic.png" width="80%" height="80%">
+</p>
 
 ### Thanks To
 - *Phil Wild (https://github.com/pwildconfluentio) for helping this put together.*
