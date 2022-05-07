@@ -207,13 +207,13 @@ Wait about 5 minutes or so for everything to start up, then point your web brows
 <img src="images/splunk_savings.png" width="80%" height="80%">
 </p> 
 
-### In the 'pan:traffic" sourcetype, only the log_type "THREAT" shows up.  It is only stored in Confluent right now.  
+### In the 'pan:traffic" sourcetype, only the log_type "THREAT" shows up.  The messages of log_type "TRAFFIC" are only stored in Confluent at this moment.
 
 <p align="center">
 <img src="images/pan_logtype_threat_only.png" width="80%" height="80%">
 </p>
 
-### Let's bring in the log_type "Traffic" the Splunk on-demand.  Back in Confluent, the connector is already configured but paused.  Let's start the connector.
+### Let's bring in the log_type "Traffic" the Splunk on-demand.  Back in Confluent, the connector is already configured but paused.  Let's RESUME the connector.
 
 <p align="center">
 <img src="images/start_connector_pan_logtype_traffic.png" width="80%" height="80%">
