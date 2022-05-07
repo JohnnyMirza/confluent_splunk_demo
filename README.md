@@ -219,7 +219,7 @@ Wait about 5 minutes or so for everything to start up, then point your web brows
 <img src="images/start_connector_pan_logtype_traffic.png" width="80%" height="80%">
 </p>
 
-   - Similary, If you only want to bring the low values messages of a specific day (e.g. the day when a security incident occurs), you can easily extend the configuration to create a branch by filtering the 'pan:traffic' messages for the desiered day.
+### More log_type now shows up. To further reduce the on-demand ingestion, say, if you only want to bring the low values messages of a specific day (e.g. the day when a security incident occurs), you can easily extend the configuration to create a branch by filtering the 'pan:traffic' messages for the desiered day.
 
 <p align="center">
 <img src="images/pan_logtype_traffic_shows_up.png" width="80%" height="80%">
