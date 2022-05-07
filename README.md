@@ -134,7 +134,7 @@ Wait about 5 minutes or so for everything to start up, then point your web brows
     KAFKA_TOPIC='firewalls', value_format='JSON'
     );
     ```
-### Finally, create a window aggregation table to dedupe events by Group
+### Create a window aggregation table to dedupe events by Group
   - ``` 
     CREATE TABLE AGGREGATOR WITH (KAFKA_TOPIC='AGGREGATOR', KEY_FORMAT='JSON', PARTITIONS=1, REPLICAS=1) AS SELECT
     `hostname`,
@@ -159,6 +159,28 @@ Wait about 5 minutes or so for everything to start up, then point your web brows
     GROUP BY `sourcetype`, `action`, `hostname`, `messageID`, `src`, `dest`, `destport`
     EMIT CHANGES;
     ```
+### Now let's focus on Palo Alto pan:traffic events. 
+  - ``` 
+      CREATE STREAM PAN_TRAFFIC WITH (KAFKA_TOPIC='PAN_TRAFFIC', PARTITIONS=1, REPLICAS=1) as SELECT
+        `event`,
+        `source`,
+        `sourcetype`,
+        `index`  
+      FROM SPLUNK
+      where ((`sourcetype` = 'pan:traffic') AND (`event` LIKE '%TRAFFIC%'))
+      EMIT CHANGES;
+    ```
+### Based on the Palo Alto Log Subtype, let's split the stream into "TRAFFIC" and "THREAT" branches
+  - ``` 
+      CREATE STREAM PAN_THREAT WITH (KAFKA_TOPIC='PAN_THREAT', PARTITIONS=1, REPLICAS=1) AS SELECT
+        `event`,
+        `source`,
+        `sourcetype`,
+        `index`
+      FROM SPLUNK
+      WHERE ((`sourcetype` = 'pan:traffic') AND (`event` LIKE '%THREAT%'))
+      EMIT CHANGES;
+    ```
 ### Visualise the data in Splunk
   - Login to the splunk instance, if running locally: http://localhost:8000/en-GB/app/search/search (admin/Password1)
   - In the search bar run ``` index=* ```
@@ -179,6 +201,13 @@ Wait about 5 minutes or so for everything to start up, then point your web brows
 <img src="images/splunk_savings.png" width="80%" height="80%">
 </p> 
 
+### In the 'pan:traffic" sourcetype, only the Log Subtype "THREAT" shows up.  It is only stored in Confluent right now.  
+
+
+### Let's bring in the Log Subtype "Traffic" the Splunk on-demand.  Back in Confluent, the connector is already configured but paused.  Let's start the connector.
+
+
+### Now, the Log Subtype "TRAFFIC" shows up in Splunk.
 
 ### Thanks To
 - *Phil Wild (https://github.com/pwildconfluentio) for helping this put together.*
