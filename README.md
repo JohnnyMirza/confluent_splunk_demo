@@ -10,6 +10,12 @@ As the data is flowing through Confluent, Kafka Streams and KsqlDB will run and 
 - Filter out of noisy meassages
 - Deduplicate and sum like events over a window period
 - Remove unnecsary fields and reduce message size
+- Bring in low value messages on-demand when deeper siem investigation is required. 
+
+<p align="center">
+   <img src="images/ksql_branches.png" width="50%" height="50%">
+</p>
+
 The Confluent managed Splunk Sink Connector uses the Splunk HTTP Event Collector (HEC) as and endpoint to push the data to. Here is a visual representation of the end-to-end flow.
 
 To handle unstructured data the Sigma stream processor (https://github.com/confluentinc/kafka-sigma) application is used which enables a RegEx function through a web UI. This allows you to enter your RegEx'es to create key/value pairs out of named capture groups, matching to a splunk sourcetype. Here is a screenshot of the web UI.
