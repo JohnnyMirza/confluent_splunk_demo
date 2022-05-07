@@ -10,6 +10,12 @@ As the data is flowing through Confluent, Kafka Streams and KsqlDB will run and 
 - Filter out of noisy meassages
 - Deduplicate and sum like events over a window period
 - Remove unnecsary fields and reduce message size
+- Bring in low value messages on-demand when deeper siem investigation is required. 
+
+<p align="center">
+   <img src="images/ksql_branches.png" width="50%" height="50%">
+</p>
+
 The Confluent managed Splunk Sink Connector uses the Splunk HTTP Event Collector (HEC) as and endpoint to push the data to. Here is a visual representation of the end-to-end flow.
 
 To handle unstructured data the Sigma stream processor (https://github.com/confluentinc/kafka-sigma) application is used which enables a RegEx function through a web UI. This allows you to enter your RegEx'es to create key/value pairs out of named capture groups, matching to a splunk sourcetype. Here is a screenshot of the web UI.
@@ -56,7 +62,7 @@ Wait about 5 minutes or so for everything to start up, then point your web brows
 - As mentioned above, the cisco:asa logs are used for the demo
 - Go to localhost:9021 (or remote host URL)
 - Click on the Cluster->Topics->splunk-s2s-events
-- Observer the messages spooling, and the click the pause button and switch to card view
+- Observe the messages spooling, and the click the pause button and switch to card view
 - Look a specific record by expanding and then scroll through the fields
 - Notice the Splunk metadata fields (source, sourcetype, host, event, _meta)
 
@@ -213,7 +219,7 @@ Wait about 5 minutes or so for everything to start up, then point your web brows
 <img src="images/start_connector_pan_logtype_traffic.png" width="80%" height="80%">
 </p>
 
-### Now, the Log Subtype "TRAFFIC" shows up in Splunk.
+   - Similary, If you only want to bring the low values messages of a specific day (e.g. the day when a security incident occurs), you can easily extend the configuration to create a branch by filtering the 'pan:traffic' messages for the desiered day.
 
 <p align="center">
 <img src="images/pan_logtype_traffic_shows_up.png" width="80%" height="80%">
