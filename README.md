@@ -170,7 +170,7 @@ Wait about 5 minutes or so for everything to start up, then point your web brows
       where ((`sourcetype` = 'pan:traffic') AND (`event` LIKE '%TRAFFIC%'))
       EMIT CHANGES;
     ```
-### Based on the Palo Alto Log Sub-type, let's split into "TRAFFIC" and "THREAT" branches
+### Based on the Palo Alto Log Subtype, let's split the stream into "TRAFFIC" and "THREAT" branches
   - ``` 
       CREATE STREAM PAN_THREAT WITH (KAFKA_TOPIC='PAN_THREAT', PARTITIONS=1, REPLICAS=1) AS SELECT
         `event`,
@@ -201,6 +201,13 @@ Wait about 5 minutes or so for everything to start up, then point your web brows
 <img src="images/splunk_savings.png" width="80%" height="80%">
 </p> 
 
+### In the 'pan:traffic" sourcetype, only the Log Subtype "THREAT" shows up.  It is only stored in Confluent right now.  
+
+
+### Let's bring in the Log Subtype "Traffic" the Splunk on-demand.  Back in Confluent, the connector is already configured but paused.  Let's start the connector.
+
+
+### Now, the Log Subtype "TRAFFIC" shows up in Splunk.
 
 ### Thanks To
 - *Phil Wild (https://github.com/pwildconfluentio) for helping this put together.*
