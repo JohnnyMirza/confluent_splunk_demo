@@ -134,7 +134,7 @@ Wait about 5 minutes or so for everything to start up, then point your web brows
     KAFKA_TOPIC='firewalls', value_format='JSON'
     );
     ```
-### Finally, create a window aggregation table to dedupe events by Group
+### Create a window aggregation table to dedupe events by Group
   - ``` 
     CREATE TABLE AGGREGATOR WITH (KAFKA_TOPIC='AGGREGATOR', KEY_FORMAT='JSON', PARTITIONS=1, REPLICAS=1) AS SELECT
     `hostname`,
@@ -158,6 +158,28 @@ Wait about 5 minutes or so for everything to start up, then point your web brows
     WINDOW TUMBLING ( SIZE 60 SECONDS ) 
     GROUP BY `sourcetype`, `action`, `hostname`, `messageID`, `src`, `dest`, `destport`
     EMIT CHANGES;
+    ```
+### Now let's focus on Palo Alto pan:traffic events. 
+  - ``` 
+      CREATE STREAM PAN_TRAFFIC WITH (KAFKA_TOPIC='PAN_TRAFFIC', PARTITIONS=1, REPLICAS=1) as SELECT
+        `event`,
+        `source`,
+        `sourcetype`,
+        `index`  
+      FROM SPLUNK
+      where ((`sourcetype` = 'pan:traffic') AND (`event` LIKE '%TRAFFIC%'))
+      EMIT CHANGES;
+    ```
+### Based on the Palo Alto Log Sub-type, let's split into "TRAFFIC" and "THREAT" branches
+  - ``` 
+      CREATE STREAM PAN_THREAT WITH (KAFKA_TOPIC='PAN_THREAT', PARTITIONS=1, REPLICAS=1) AS SELECT
+        `event`,
+        `source`,
+        `sourcetype`,
+        `index`
+      FROM SPLUNK
+      WHERE ((`sourcetype` = 'pan:traffic') AND (`event` LIKE '%THREAT%'))
+      EMIT CHANGES;
     ```
 ### Visualise the data in Splunk
   - Login to the splunk instance, if running locally: http://localhost:8000/en-GB/app/search/search (admin/Password1)
