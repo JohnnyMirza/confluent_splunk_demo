@@ -119,7 +119,7 @@
          CONTROL_CENTER_KSQL_SERVER_ADVERTISED_URL: http://localhost:8088
     
       splunk_uf1:
-        image: splunk/universalforwarder:latest
+        image: splunk/universalforwarder:8.2.1
         hostname: splunk_uf1
         container_name: splunk_uf1
         depends_on:
