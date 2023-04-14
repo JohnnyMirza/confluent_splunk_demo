@@ -191,17 +191,20 @@ Wait about 5 minutes or so for everything to start up, then point your web brows
    docker restart cyber-sigma-streams
    ```
 - If there are no events after running the KsqlDB queries, ensure all of the fields are correct, and that you have added the custom fields in the Sigma RegEx
-- The following docker images will be configured as part of this demo:   
+- The following docker containers will be configured as part of this demo:   
    ```
    Name
    ----------------
    broker
    control-center
-   cyber-sigma-RegEx-ui
+   cyber-sigma-regex-ui
    cyber-sigma-streams
-   kafka-connect
-   ksqldb
+   connect
+   ksqldb-server
+   ksqldb-cli
+   ksql-datagen
    schema-registry
+   rest-proxy
    splunk_eventgen
    splunk_search
    splunk_uf1
